@@ -55,7 +55,7 @@ var knownRootHashes = {
       "label": "VeriSign Class 3 Public Primary Certification Authority - G3",
       "binNumber": 8,
       "sha256Fingerprint": "6wTPXrHzmvp2LyuxIPKWy6Ugwbl9sViVZbgcuaF7ckQ=",
-      "owner": "Symantec / VeriSign"
+      "owner": "Symantec"
     },
     {
       "label": "VeriSign_Class_4_Public_Primary_Certification_Authority___G3",
@@ -127,25 +127,25 @@ var knownRootHashes = {
       "label": "GeoTrust Global CA",
       "binNumber": 20,
       "sha256Fingerprint": "/4VqLSUdzYjTZlb0UBJnmM+rqt5AeZxyLeTStds2pzo=",
-      "owner": "Symantec / GeoTrust"
+      "owner": "Symantec"
     },
     {
       "label": "GeoTrust Global CA 2",
       "binNumber": 21,
       "sha256Fingerprint": "yi2CoIZ3By+KtnZP8DVnbP4+XjJeASFy3z+SCW23m4U=",
-      "owner": "Symantec / GeoTrust"
+      "owner": "Symantec"
     },
     {
       "label": "GeoTrust Universal CA",
       "binNumber": 22,
       "sha256Fingerprint": "oEWbn2OyJVn1+l1MbbP59y/xk0IDNXjwc78dG0bLuRI=",
-      "owner": "Symantec / GeoTrust"
+      "owner": "Symantec"
     },
     {
       "label": "GeoTrust Universal CA 2",
       "binNumber": 23,
       "sha256Fingerprint": "oCNPO8hSfKVijuyBrV1piV2laA3JHRy4R38z+Hi5Wws=",
-      "owner": "Symantec / GeoTrust"
+      "owner": "Symantec"
     },
     {
       "label": "America_Online_Root_Certification_Authority_1",
@@ -355,19 +355,19 @@ var knownRootHashes = {
       "label": "GeoTrust Primary Certification Authority",
       "binNumber": 58,
       "sha256Fingerprint": "N9UQBsUS6qtiZCHx7IySAT/F+CrpjuUz60YZuN600Gw=",
-      "owner": "Symantec / GeoTrust"
+      "owner": "Symantec"
     },
     {
       "label": "thawte Primary Root CA",
       "binNumber": 59,
       "sha256Fingerprint": "jXIvganBE8B5HfE2opZtsmyVCpcdtGtBmfTqVLeL+58=",
-      "owner": "Symantec / Thawte"
+      "owner": "Symantec"
     },
     {
       "label": "VeriSign Class 3 Public Primary Certification Authority - G5",
       "binNumber": 60,
       "sha256Fingerprint": "ms+rfkPI2IDQayYqlN7u5LRlmYnD0Mrxm69kBeQat98=",
-      "owner": "Symantec / VeriSign"
+      "owner": "Symantec"
     },
     {
       "label": "SecureTrust CA",
@@ -433,7 +433,7 @@ var knownRootHashes = {
       "label": "Certigna",
       "binNumber": 71,
       "sha256Fingerprint": "47ai2y7XzkiEL3rFMkHHtx1UFEv7QMEfPx0LQvXuoS0=",
-      "owner": "Dhimyotis / Certigna"
+      "owner": "Dhimyotis"
     },
     {
       "label": "TC_TrustCenter_Class_2_CA_II",
@@ -523,37 +523,37 @@ var knownRootHashes = {
       "label": "GeoTrust Primary Certification Authority - G3",
       "binNumber": 86,
       "sha256Fingerprint": "tHi4EiUN+HhjXCqn7H0VXqpiXugpFuLNKUNhiGzR+9Q=",
-      "owner": "Symantec / GeoTrust"
+      "owner": "Symantec"
     },
     {
       "label": "thawte Primary Root CA - G2",
       "binNumber": 87,
       "sha256Fingerprint": "pDENUK8YpkRxkDcqhq+vi5Uf+0Mdg38eVoi0WXHtFVc=",
-      "owner": "Symantec / Thawte"
+      "owner": "Symantec"
     },
     {
       "label": "thawte Primary Root CA - G3",
       "binNumber": 88,
       "sha256Fingerprint": "SwP0WAetcPIb/Cyuccn95GBMBkz1/7aGuuXbqtf900w=",
-      "owner": "Symantec / Thawte"
+      "owner": "Symantec"
     },
     {
       "label": "GeoTrust Primary Certification Authority - G2",
       "binNumber": 89,
       "sha256Fingerprint": "Xtt6xDuCoGqHYejXvkl56/JhH33Xm/kcHGtWaiGe12Y=",
-      "owner": "Symantec / GeoTrust"
+      "owner": "Symantec"
     },
     {
       "label": "VeriSign Universal Root Certification Authority",
       "binNumber": 90,
       "sha256Fingerprint": "I5lWESelcSXejO/qYQ3fL6B4tcgGf06CgpC/uGDoSzw=",
-      "owner": "Symantec / VeriSign"
+      "owner": "Symantec"
     },
     {
       "label": "VeriSign Class 3 Public Primary Certification Authority - G4",
       "binNumber": 91,
       "sha256Fingerprint": "ad3X6pC7V8k+E13IXqb81UgLYDI5vcRU/HWLKibPf3k=",
-      "owner": "Symantec / VeriSign"
+      "owner": "Symantec"
     },
     {
       "label": "NetLock Arany (Class Gold) Főtanúsítvány",
@@ -589,7 +589,7 @@ var knownRootHashes = {
       "label": "SecureSign RootCA11",
       "binNumber": 97,
       "sha256Fingerprint": "vw/u+546WBrV+enbdYmYV0PSYQhcTTFPb11yWapCFhI=",
-      "owner": "Cybertrust Japan / JCSI"
+      "owner": "Cybertrust Japan"
     },
     {
       "label": "ACEDICOM Root",
