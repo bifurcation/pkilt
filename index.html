@@ -1,0 +1,190 @@
+<html>
+
+<head>
+<title>Firefox PKI league table</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://telemetry.mozilla.org/v2/telemetry.js"></script>
+<script src="./KnownRootHashes.json"></script>
+<script>
+
+// Defaults
+var CHANNELS = ["beta", "release"];
+var RECENCY_THRESHOLD = 7 * 24 * 60 * 60 * 1000; // last week
+
+var MEASURE = "CERT_VALIDATION_SUCCESS_BY_CA";
+var VERSION_THRESHOLD = 36;
+var PRECISION = 5; // decimal places
+var INCLUSION_THRESHOLD = 0.001; // CCDF
+var TODAY = new Date();
+
+// Adds all histgrams for the indicated version, and calls the
+// callback with a bin->count map
+function loadAll(versions, callback, hist_in) {
+  var fullVersion = versions[0];
+  console.log("loading "+ fullVersion +" ...");
+  $("#loading").append(fullVersion + " ... ");
+
+  var channelVersion = fullVersion.split("/");
+  var channel = channelVersion[0];
+  var version = channelVersion[1];
+
+  var hist = hist_in || {};
+
+  function proceed() {
+    if (versions.length > 1) {
+      loadAll(versions.slice(1), callback, hist);
+    } else {
+      callback(hist);
+    }
+  }
+
+  Telemetry.getEvolution(channel, version, MEASURE, {}, true, function(evolutionMap) {
+    if (!evolutionMap || !evolutionMap[""]) {
+      console.log("No evolution returned for:", channel, version);
+      proceed();
+    }
+
+    evolutionMap[""].map(function(histogram, i, date) {
+      if (TODAY - date > RECENCY_THRESHOLD) {
+        return;
+      }
+
+      histogram.map(function(count, start, end, j) {
+        if (!hist[start]) {
+          hist[start] = 0;
+        }
+        hist[start] += count;
+      });
+    });
+
+    proceed();
+  });
+}
+
+// Loaded from #includes:
+// knownRootHashes: { roots: [ {label, binNumber, sha256Fingerprint} ] }
+function chart(counts) {
+  // Transmute the inputs into maps by bin number
+  labels = {};
+  bins = [];
+  for (i in knownRootHashes.roots) {
+    bins.push(knownRootHashes.roots[i].binNumber);
+    labels[knownRootHashes.roots[i].binNumber] = knownRootHashes.roots[i].label;
+  }
+
+  // Add the empty bin
+  bins.push(0);
+  labels[0] = "(non-default root)";
+
+  // Sort the bins by count
+  bins = bins.sort(function(i,j) {return counts[j] - counts[i]});
+
+  // Compute the total number of observations
+  totalCount = bins.map(function(i) {return counts[i];})
+    .reduce(function(last, curr) {return last+curr;}, 0);
+
+  // Compute the percentages, CDFs and CCDFs, where the CDF
+  // and CCDF are ordered by the current ordering of bins
+  percent = {};
+  lastCDF = 0;
+  cdf = {};
+  ccdf = {};
+  for (i in bins) {
+    bin = bins[i]
+    percent[bin] = counts[bin] * 100.0 / totalCount;
+    cdf[bin] = percent[bin] + lastCDF;
+    ccdf[bin] = 100 - cdf[bin];
+    lastCDF = cdf[bin]
+  }
+
+  rank = 0;
+  content = "<table>"
+          + "<tr>"
+          + "<th>Rank</th>"
+          + "<th>Label</th>"
+          + "<th>Observations</th>"
+          + "<th>Percent</th>"
+          + "<th><a href='https://en.wikipedia.org/wiki/Cumulative_distribution_function'>CDF</a></th>"
+          + "<th><a href='https://en.wikipedia.org/wiki/Cumulative_distribution_function#Complementary_cumulative_distribution_function_.28tail_distribution.29'>CCDF</a></th>"
+          + "</tr>";
+  for (i in bins) {
+    rank += 1
+    bin = bins[i];
+
+    content += "<tr>" 
+             + "<td>"+ rank +"</td>"
+             + "<td>"+ labels[bin] +"</td>"
+             + "<td class='number'>"+ counts[bin] +"</td>"
+             + "<td class='number'>"+ percent[bin].toFixed(PRECISION) +"%</td>"
+             + "<td class='number'>"+ cdf[bin].toFixed(PRECISION) +"%</td>"
+             + "<td class='number'>"+ ccdf[bin].toFixed(PRECISION) +"%</td>"
+             + "</tr>";
+
+    // Chop off really insignificant stuff
+    if (ccdf[bin] < INCLUSION_THRESHOLD) {
+      break;
+    }
+  }
+  content += "</table>";
+  $("#loading").hide();
+  $("#results").html(content);
+}
+
+function go() {
+  CHANNELS = Array.from($("input:checked").map(function(x, val) { return $(val).attr("id"); }));
+  RECENCY_THRESHOLD = parseInt($("#duration").val()) * 24 * 60 * 60 * 1000;
+
+  $("#loading").text("Loading...");
+  $("#loading").show();
+
+  var versions = Telemetry.getVersions();
+  console.log("Loading", JSON.stringify(versions));
+  versions = versions.filter(function(x) {
+    channelVersion = x.split("/");
+    return CHANNELS.indexOf(channelVersion[0]) > -1 && channelVersion[1] > VERSION_THRESHOLD;
+  });
+  console.log("Loading", JSON.stringify(versions));
+
+  loadAll(versions, chart);
+}
+
+Telemetry.init(go);
+</script>
+<style>
+
+body {
+  font-family: Monaco, monospace;
+}
+
+th, td {
+  padding: 0.5ex;
+}
+
+th {
+  border-bottom: 1px solid black;
+}
+
+</style>
+</head>
+
+<body>
+<h1>PKI League Table</h1>
+<p>According to <a href="https://telemetry.mozilla.org">Firefox telemetry</a>. Very rare CAs trimmed.</p>
+<p>
+<input type="checkbox" id="nightly" onchange="go()"><label for="nightly">nightly</label>
+<input type="checkbox" id="aurora" onchange="go()"><label for="aurora">aurora</label>
+<input type="checkbox" id="beta" onchange="go()" checked><label for="beta">beta</label>
+<input type="checkbox" id="release" onchange="go()" checked><label for="release">release</label>
+<select id="duration" onchange="go()">
+  <option value="3">3 days</option>
+  <option value="7">7 days</option>
+  <option value="14">14 days</option>
+  <option value="30">30 days</option>
+  <option value="90">90 days</option>
+</select>
+</p>
+<div id="loading">Loading... </div>
+<div id="results"></div>
+</body>
+
+</html>
