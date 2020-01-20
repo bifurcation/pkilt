@@ -13,19 +13,19 @@ var knownRootHashes = {
       "label": "GTE_CyberTrust_Global_Root",
       "binNumber": 1,
       "sha256Fingerprint": "pTElGI0hEKqWSwLHt8baMgMXCJTl+3H/+2Zn1eaBCjY=",
-      "owner": "<unknown>"
+      "owner": "DigiCert"
     },
     {
       "label": "Thawte_Server_CA",
       "binNumber": 2,
       "sha256Fingerprint": "tEELc+Lm6spH+8Qvj6QBivQ4HcVM+qhEUEYe7QlFTek=",
-      "owner": "<unknown>"
+      "owner": "DigiCert"
     },
     {
       "label": "Thawte_Premium_Server_CA",
       "binNumber": 3,
       "sha256Fingerprint": "q3A2NlxxVKopwsKfXUGRFjsWKiIlARNX1W0H/6e8H3I=",
-      "owner": "<unknown>"
+      "owner": "DigiCert"
     },
     {
       "label": "OU_Equifax_Secure_Certificate_Authority_O_Equifax_C_US",
@@ -55,7 +55,7 @@ var knownRootHashes = {
       "label": "VeriSign Class 3 Public Primary Certification Authority - G3",
       "binNumber": 8,
       "sha256Fingerprint": "6wTPXrHzmvp2LyuxIPKWy6Ugwbl9sViVZbgcuaF7ckQ=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "VeriSign_Class_4_Public_Primary_Certification_Authority___G3",
@@ -91,25 +91,25 @@ var knownRootHashes = {
       "label": "AddTrust Class 1 CA Root",
       "binNumber": 14,
       "sha256Fingerprint": "jHIJJ5rATideFtB/07d16AFUtZaARuMfUt0ldmMk6ac=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "AddTrust External CA Root",
       "binNumber": 15,
       "sha256Fingerprint": "aH+kUTgieP/wyLEfjUPVdmccbrK86rQT+4PZZdBtL/I=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "AddTrust Public CA Root",
       "binNumber": 16,
       "sha256Fingerprint": "B5HKB0myB4Kq08fXvQzfyUhYNYQ+steZYAnOQ6tsaSc=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "AddTrust Qualified CA Root",
       "binNumber": 17,
       "sha256Fingerprint": "gJUhCAXbS7w1XkQo2P1uws3jq1+5eplCmI649NzQYBY=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "Entrust Root Certification Authority",
@@ -127,25 +127,25 @@ var knownRootHashes = {
       "label": "GeoTrust Global CA",
       "binNumber": 20,
       "sha256Fingerprint": "/4VqLSUdzYjTZlb0UBJnmM+rqt5AeZxyLeTStds2pzo=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "GeoTrust Global CA 2",
       "binNumber": 21,
       "sha256Fingerprint": "yi2CoIZ3By+KtnZP8DVnbP4+XjJeASFy3z+SCW23m4U=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "GeoTrust Universal CA",
       "binNumber": 22,
       "sha256Fingerprint": "oEWbn2OyJVn1+l1MbbP59y/xk0IDNXjwc78dG0bLuRI=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "GeoTrust Universal CA 2",
       "binNumber": 23,
       "sha256Fingerprint": "oCNPO8hSfKVijuyBrV1piV2laA3JHRy4R38z+Hi5Wws=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "America_Online_Root_Certification_Authority_1",
@@ -175,37 +175,37 @@ var knownRootHashes = {
       "label": "AAA Certificate Services",
       "binNumber": 28,
       "sha256Fingerprint": "16eg+11+JzHXcelITrze9x1fDD4KKUh4K8g+4OppnvQ=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "Secure Certificate Services",
       "binNumber": 29,
       "sha256Fingerprint": "vYHOO09lkdEaZ7X8ekf97yVSG/mqThi5498uNKeAO+g=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "Trusted Certificate Services",
       "binNumber": 30,
       "sha256Fingerprint": "PwblVoHUlvW+Fp61OJ+fK4/2HhcI32iBckhJzV0ny2k=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "QuoVadis Root Certification Authority",
       "binNumber": 31,
       "sha256Fingerprint": "pF7eO7vwnIrhXHLvwHJo1pOiHJlv1R5nygeUYP1tiHM=",
-      "owner": "QuoVadis"
+      "owner": "DigiCert"
     },
     {
       "label": "QuoVadis Root CA 2",
       "binNumber": 32,
       "sha256Fingerprint": "haDdfdcgrbf/Bfg9VCsgncf/RSj31nexg4n+peXEnoY=",
-      "owner": "QuoVadis"
+      "owner": "DigiCert"
     },
     {
       "label": "QuoVadis Root CA 3",
       "binNumber": 33,
       "sha256Fingerprint": "GPH8fyBd+K3d63/gB91X4683WpxNjXNUa/Tx/tHhjTU=",
-      "owner": "QuoVadis"
+      "owner": "DigiCert"
     },
     {
       "label": "SECOM Trust.net - Security Communication RootCA1",
@@ -235,7 +235,7 @@ var knownRootHashes = {
       "label": "UTN-USERFirst-Hardware",
       "binNumber": 38,
       "sha256Fingerprint": "bqVHQdAEZn7tG0gWY0qjp55uS5aVD4J52vyNm9iBITc=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "Chambers of Commerce Root",
@@ -355,19 +355,19 @@ var knownRootHashes = {
       "label": "GeoTrust Primary Certification Authority",
       "binNumber": 58,
       "sha256Fingerprint": "N9UQBsUS6qtiZCHx7IySAT/F+CrpjuUz60YZuN600Gw=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "thawte Primary Root CA",
       "binNumber": 59,
       "sha256Fingerprint": "jXIvganBE8B5HfE2opZtsmyVCpcdtGtBmfTqVLeL+58=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "VeriSign Class 3 Public Primary Certification Authority - G5",
       "binNumber": 60,
       "sha256Fingerprint": "ms+rfkPI2IDQayYqlN7u5LRlmYnD0Mrxm69kBeQat98=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "SecureTrust CA",
@@ -385,7 +385,7 @@ var knownRootHashes = {
       "label": "COMODO Certification Authority",
       "binNumber": 63,
       "sha256Fingerprint": "DCzWPfeAb6OZ7egJEWtXW/h5ifBlGPmAjIYFAxeLr2Y=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "Network Solutions Certificate Authority",
@@ -403,7 +403,7 @@ var knownRootHashes = {
       "label": "COMODO ECC Certification Authority",
       "binNumber": 66,
       "sha256Fingerprint": "F5OSegYUVJeJrc4vjzT38LZtDzrjo7hNIewV27pPrcc=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "IGC_A",
@@ -523,37 +523,37 @@ var knownRootHashes = {
       "label": "GeoTrust Primary Certification Authority - G3",
       "binNumber": 86,
       "sha256Fingerprint": "tHi4EiUN+HhjXCqn7H0VXqpiXugpFuLNKUNhiGzR+9Q=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "thawte Primary Root CA - G2",
       "binNumber": 87,
       "sha256Fingerprint": "pDENUK8YpkRxkDcqhq+vi5Uf+0Mdg38eVoi0WXHtFVc=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "thawte Primary Root CA - G3",
       "binNumber": 88,
       "sha256Fingerprint": "SwP0WAetcPIb/Cyuccn95GBMBkz1/7aGuuXbqtf900w=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "GeoTrust Primary Certification Authority - G2",
       "binNumber": 89,
       "sha256Fingerprint": "Xtt6xDuCoGqHYejXvkl56/JhH33Xm/kcHGtWaiGe12Y=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "VeriSign Universal Root Certification Authority",
       "binNumber": 90,
       "sha256Fingerprint": "I5lWESelcSXejO/qYQ3fL6B4tcgGf06CgpC/uGDoSzw=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "VeriSign Class 3 Public Primary Certification Authority - G4",
       "binNumber": 91,
       "sha256Fingerprint": "ad3X6pC7V8k+E13IXqb81UgLYDI5vcRU/HWLKibPf3k=",
-      "owner": "Symantec"
+      "owner": "DigiCert"
     },
     {
       "label": "NetLock Arany (Class Gold) Főtanúsítvány",
@@ -871,19 +871,19 @@ var knownRootHashes = {
       "label": "QuoVadis Root CA 1 G3",
       "binNumber": 144,
       "sha256Fingerprint": "ioZv0bJ2tX5XjpIcZYKKK+1Y6fLyiAVBNLfx9L/JzHQ=",
-      "owner": "QuoVadis"
+      "owner": "DigiCert"
     },
     {
       "label": "QuoVadis Root CA 2 G3",
       "binNumber": 145,
       "sha256Fingerprint": "j+T7Cvk6TQ1n2wvrsj43xxvzJdy83SQOoE2vWLR+GEA=",
-      "owner": "QuoVadis"
+      "owner": "DigiCert"
     },
     {
       "label": "QuoVadis Root CA 3 G3",
       "binNumber": 146,
       "sha256Fingerprint": "iO+B3iAusBhFLkP4ZHJc6l+9H8LZ0gVzBwnF2LhpD0Y=",
-      "owner": "QuoVadis"
+      "owner": "DigiCert"
     },
     {
       "label": "DigiCert Assured ID Root G2",
@@ -931,19 +931,19 @@ var knownRootHashes = {
       "label": "COMODO RSA Certification Authority",
       "binNumber": 154,
       "sha256Fingerprint": "UvDhxOWOxikpG2AxfwdGcbhdfqgNWwcnNGNTSzK0AjQ=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "USERTrust RSA Certification Authority",
       "binNumber": 155,
       "sha256Fingerprint": "55PJsC/YqhPiHDEiisywgRlkO3SciYlksXRtRsPUy9I=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "USERTrust ECC Certification Authority",
       "binNumber": 156,
       "sha256Fingerprint": "T/Rg1Uuchtq/vPxXEuBADSvtP7xNT72qhuBq3NKprXo=",
-      "owner": "Comodo"
+      "owner": "Sectigo"
     },
     {
       "label": "GlobalSign ECC Root CA - R4",
@@ -1130,7 +1130,61 @@ var knownRootHashes = {
       "binNumber": 187,
       "sha256Fingerprint": "VEVfcSnCCxRHxBj5lxaPJMWPxQI79dpb4utuHdiQLtU=",
       "owner": "LuxTrust"
+    },
+    {
+      "label": "TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi___Surum_1",
+      "binNumber": 188,
+      "sha256Fingerprint": "Ru3DaJBG1TpFP7MQSrgNyuxliyZg6hYp3X6GeZBkhxY=",
+      "owner": "Government of Turkey, Kamu Sertifikasyon Merkezi (Kamu SM)"
+    },
+    {
+      "label": "GDCA_TrustAUTH_R5_ROOT",
+      "binNumber": 189,
+      "sha256Fingerprint": "v/+P0EQzSH1qiqYMGil2ep/Cu7BeQg9xOhO5kokdOJM=",
+      "owner": "GDCA"
+    },
+    {
+      "label": "TrustCor_RootCert_CA_1",
+      "binNumber": 190,
+      "sha256Fingerprint": "1A6chs2P5GjBd2lZ9J6ndPpUhoS2xAbzkJJh9NziV1w=",
+      "owner": "TrustCor"
+    },
+    {
+      "label": "TrustCor_RootCert_CA_2",
+      "binNumber": 191,
+      "sha256Fingerprint": "B1PpQDeMG9Xjg245Xa6ly4OeUEbxvQ6uGVHPEP7HyWU=",
+      "owner": "TrustCor"
+    },
+    {
+      "label": "TrustCor_ECA_1",
+      "binNumber": 192,
+      "sha256Fingerprint": "WohdsZwB2RLFdZOIk4yvu98DGrLUjpHuFVibQpcdA5w=",
+      "owner": "TrustCor"
+    },
+    {
+      "label": "SSL_com_Root_Certification_Authority_RSA",
+      "binNumber": 193,
+      "sha256Fingerprint": "hWZqVi7gvlzpJcHYiQpvdqh+wW1NfV8p6nQZzyASO2k=",
+      "owner": "SSL.com"
+    },
+    {
+      "label": "SSL_com_Root_Certification_Authority_ECC",
+      "binNumber": 194,
+      "sha256Fingerprint": "NBe7BsxgB9oblhySC4q0zj+tgg5Kowuay8SnTr3OvGU=",
+      "owner": "SSL.com"
+    },
+    {
+      "label": "SSL_com_EV_Root_Certification_Authority_RSA_R2",
+      "binNumber": 195,
+      "sha256Fingerprint": "LnvxbMIkhae74qqGlnUHYbCuOb47L+nQzG1O9zSRQlw=",
+      "owner": "SSL.com"
+    },
+    {
+      "label": "SSL_com_EV_Root_Certification_Authority_ECC",
+      "binNumber": 196,
+      "sha256Fingerprint": "IqLB973tcEzB5wG19AjDEIgP6Va13ipKRPmchzolp8g=",
+      "owner": "SSL.com"
     }
   ],
-  "maxBin": 187
+  "maxBin": 196
 }
