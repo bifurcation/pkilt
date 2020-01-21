@@ -3,8 +3,8 @@
 // file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 //
 //***************************************************************************
-// This is an automatically generated file. It's used to maintain state for
-// runs of genRootCAHashes.js; you should never need to manually edit it
+// This is an automatically generated file. 
+// You should never need to manually edit it.
 //***************************************************************************
 
 var knownRootHashes = {
@@ -12,938 +12,1179 @@ var knownRootHashes = {
     {
       "label": "GTE_CyberTrust_Global_Root",
       "binNumber": 1,
-      "sha256Fingerprint": "pTElGI0hEKqWSwLHt8baMgMXCJTl+3H/+2Zn1eaBCjY="
+      "sha256Fingerprint": "pTElGI0hEKqWSwLHt8baMgMXCJTl+3H/+2Zn1eaBCjY=",
+      "owner": "DigiCert"
     },
     {
       "label": "Thawte_Server_CA",
       "binNumber": 2,
-      "sha256Fingerprint": "tEELc+Lm6spH+8Qvj6QBivQ4HcVM+qhEUEYe7QlFTek="
+      "sha256Fingerprint": "tEELc+Lm6spH+8Qvj6QBivQ4HcVM+qhEUEYe7QlFTek=",
+      "owner": "DigiCert"
     },
     {
       "label": "Thawte_Premium_Server_CA",
       "binNumber": 3,
-      "sha256Fingerprint": "q3A2NlxxVKopwsKfXUGRFjsWKiIlARNX1W0H/6e8H3I="
+      "sha256Fingerprint": "q3A2NlxxVKopwsKfXUGRFjsWKiIlARNX1W0H/6e8H3I=",
+      "owner": "DigiCert"
     },
     {
       "label": "OU_Equifax_Secure_Certificate_Authority_O_Equifax_C_US",
       "binNumber": 4,
-      "sha256Fingerprint": "CCl6QEfbojaAxzHbbjF2U8p4SOG+vToLAXmnB/ks8Xg="
+      "sha256Fingerprint": "CCl6QEfbojaAxzHbbjF2U8p4SOG+vToLAXmnB/ks8Xg=",
+      "owner": "<unknown>"
     },
     {
       "label": "OU_VeriSign_Trust_Network_OU___c__1998_VeriSign__Inc____For_authorized_use_only__OU_Class_3_Public_Primary_Certification_Authority___G2_O__VeriSign__Inc___C_US",
       "binNumber": 5,
-      "sha256Fingerprint": "g848Eiloilk9SF+BlzwPkZVDHto3zF42Qw55x6iIY4s="
+      "sha256Fingerprint": "g848Eiloilk9SF+BlzwPkZVDHto3zF42Qw55x6iIY4s=",
+      "owner": "<unknown>"
     },
     {
-      "label": "GlobalSign_Root_CA",
+      "label": "GlobalSign Root CA",
       "binNumber": 6,
-      "sha256Fingerprint": "69QQQOS7PsdCyeOB0x7ypBpItmhclufO88HfbNQzHJk="
+      "sha256Fingerprint": "69QQQOS7PsdCyeOB0x7ypBpItmhclufO88HfbNQzHJk=",
+      "owner": "GlobalSign"
     },
     {
-      "label": "GlobalSign",
+      "label": "GlobalSign Root CA - R2",
       "binNumber": 7,
-      "sha256Fingerprint": "ykLdQXRf0LgeuQI2LPnYv3Gdob0bHvyUb1tMmfQsG54="
+      "sha256Fingerprint": "ykLdQXRf0LgeuQI2LPnYv3Gdob0bHvyUb1tMmfQsG54=",
+      "owner": "Google Trust Services (GTS)"
     },
     {
-      "label": "VeriSign_Class_3_Public_Primary_Certification_Authority___G3",
+      "label": "VeriSign Class 3 Public Primary Certification Authority - G3",
       "binNumber": 8,
-      "sha256Fingerprint": "6wTPXrHzmvp2LyuxIPKWy6Ugwbl9sViVZbgcuaF7ckQ="
+      "sha256Fingerprint": "6wTPXrHzmvp2LyuxIPKWy6Ugwbl9sViVZbgcuaF7ckQ=",
+      "owner": "DigiCert"
     },
     {
       "label": "VeriSign_Class_4_Public_Primary_Certification_Authority___G3",
       "binNumber": 9,
-      "sha256Fingerprint": "44k2DQ/brrPSUFhLRzAxTiIvOcFWoCAUTo2WBWF5FQY="
+      "sha256Fingerprint": "44k2DQ/brrPSUFhLRzAxTiIvOcFWoCAUTo2WBWF5FQY=",
+      "owner": "<unknown>"
     },
     {
-      "label": "Entrust_net_Certification_Authority__2048_",
+      "label": "Entrust.net Certification Authority (2048)",
       "binNumber": 10,
-      "sha256Fingerprint": "bcRxcuAcvLC/YlgNiV/iuKya1PhzgB4MELnIN9IesXc="
+      "sha256Fingerprint": "bcRxcuAcvLC/YlgNiV/iuKya1PhzgB4MELnIN9IesXc=",
+      "owner": "Entrust"
     },
     {
-      "label": "Baltimore_CyberTrust_Root",
+      "label": "Baltimore CyberTrust Root",
       "binNumber": 11,
-      "sha256Fingerprint": "Fq9XqfZ2sKsSYJWqXrre8iqzERnWRKyVzUuT2/Pyaus="
+      "sha256Fingerprint": "Fq9XqfZ2sKsSYJWqXrre8iqzERnWRKyVzUuT2/Pyaus=",
+      "owner": "DigiCert"
     },
     {
       "label": "Equifax_Secure_Global_eBusiness_CA_1",
       "binNumber": 12,
-      "sha256Fingerprint": "Xwti6rXjU+plIWUWWPu2U1n0QygKSvvRBNd9EPnwTAc="
+      "sha256Fingerprint": "Xwti6rXjU+plIWUWWPu2U1n0QygKSvvRBNd9EPnwTAc=",
+      "owner": "<unknown>"
     },
     {
       "label": "Equifax_Secure_eBusiness_CA_1",
       "binNumber": 13,
-      "sha256Fingerprint": "z1b/RqShhhCd2WWEte61ilEMQnWw5flPQLuuhl4Z9nM="
+      "sha256Fingerprint": "z1b/RqShhhCd2WWEte61ilEMQnWw5flPQLuuhl4Z9nM=",
+      "owner": "<unknown>"
     },
     {
-      "label": "AddTrust_Class_1_CA_Root",
+      "label": "AddTrust Class 1 CA Root",
       "binNumber": 14,
-      "sha256Fingerprint": "jHIJJ5rATideFtB/07d16AFUtZaARuMfUt0ldmMk6ac="
+      "sha256Fingerprint": "jHIJJ5rATideFtB/07d16AFUtZaARuMfUt0ldmMk6ac=",
+      "owner": "Sectigo"
     },
     {
-      "label": "AddTrust_External_CA_Root",
+      "label": "AddTrust External CA Root",
       "binNumber": 15,
-      "sha256Fingerprint": "aH+kUTgieP/wyLEfjUPVdmccbrK86rQT+4PZZdBtL/I="
+      "sha256Fingerprint": "aH+kUTgieP/wyLEfjUPVdmccbrK86rQT+4PZZdBtL/I=",
+      "owner": "Sectigo"
     },
     {
-      "label": "AddTrust_Public_CA_Root",
+      "label": "AddTrust Public CA Root",
       "binNumber": 16,
-      "sha256Fingerprint": "B5HKB0myB4Kq08fXvQzfyUhYNYQ+steZYAnOQ6tsaSc="
+      "sha256Fingerprint": "B5HKB0myB4Kq08fXvQzfyUhYNYQ+steZYAnOQ6tsaSc=",
+      "owner": "Sectigo"
     },
     {
-      "label": "AddTrust_Qualified_CA_Root",
+      "label": "AddTrust Qualified CA Root",
       "binNumber": 17,
-      "sha256Fingerprint": "gJUhCAXbS7w1XkQo2P1uws3jq1+5eplCmI649NzQYBY="
+      "sha256Fingerprint": "gJUhCAXbS7w1XkQo2P1uws3jq1+5eplCmI649NzQYBY=",
+      "owner": "Sectigo"
     },
     {
-      "label": "Entrust_Root_Certification_Authority",
+      "label": "Entrust Root Certification Authority",
       "binNumber": 18,
-      "sha256Fingerprint": "c8F2Q08bxtWt9FsOducnKHyN5XYWwebmFBorLLx9jkw="
+      "sha256Fingerprint": "c8F2Q08bxtWt9FsOducnKHyN5XYWwebmFBorLLx9jkw=",
+      "owner": "Entrust"
     },
     {
       "label": "OU_RSA_Security_2048_V3_O_RSA_Security_Inc",
       "binNumber": 19,
-      "sha256Fingerprint": "r4tnYqHlKCKBYaldXFWe4mYnj3XXnoMBiaUDUGq9a0w="
+      "sha256Fingerprint": "r4tnYqHlKCKBYaldXFWe4mYnj3XXnoMBiaUDUGq9a0w=",
+      "owner": "<unknown>"
     },
     {
-      "label": "GeoTrust_Global_CA",
+      "label": "GeoTrust Global CA",
       "binNumber": 20,
-      "sha256Fingerprint": "/4VqLSUdzYjTZlb0UBJnmM+rqt5AeZxyLeTStds2pzo="
+      "sha256Fingerprint": "/4VqLSUdzYjTZlb0UBJnmM+rqt5AeZxyLeTStds2pzo=",
+      "owner": "DigiCert"
     },
     {
-      "label": "GeoTrust_Global_CA_2",
+      "label": "GeoTrust Global CA 2",
       "binNumber": 21,
-      "sha256Fingerprint": "yi2CoIZ3By+KtnZP8DVnbP4+XjJeASFy3z+SCW23m4U="
+      "sha256Fingerprint": "yi2CoIZ3By+KtnZP8DVnbP4+XjJeASFy3z+SCW23m4U=",
+      "owner": "DigiCert"
     },
     {
-      "label": "GeoTrust_Universal_CA",
+      "label": "GeoTrust Universal CA",
       "binNumber": 22,
-      "sha256Fingerprint": "oEWbn2OyJVn1+l1MbbP59y/xk0IDNXjwc78dG0bLuRI="
+      "sha256Fingerprint": "oEWbn2OyJVn1+l1MbbP59y/xk0IDNXjwc78dG0bLuRI=",
+      "owner": "DigiCert"
     },
     {
-      "label": "GeoTrust_Universal_CA_2",
+      "label": "GeoTrust Universal CA 2",
       "binNumber": 23,
-      "sha256Fingerprint": "oCNPO8hSfKVijuyBrV1piV2laA3JHRy4R38z+Hi5Wws="
+      "sha256Fingerprint": "oCNPO8hSfKVijuyBrV1piV2laA3JHRy4R38z+Hi5Wws=",
+      "owner": "DigiCert"
     },
     {
       "label": "America_Online_Root_Certification_Authority_1",
       "binNumber": 24,
-      "sha256Fingerprint": "d0BzEsY6FT1bwAtOUXWc39rCN9wqM7Z5RumOm/poCuM="
+      "sha256Fingerprint": "d0BzEsY6FT1bwAtOUXWc39rCN9wqM7Z5RumOm/poCuM=",
+      "owner": "<unknown>"
     },
     {
       "label": "America_Online_Root_Certification_Authority_2",
       "binNumber": 25,
-      "sha256Fingerprint": "fTtGWmAU5SbAr/zuISfSMRcnrYEcJoQtAGrzcwbMgL0="
+      "sha256Fingerprint": "fTtGWmAU5SbAr/zuISfSMRcnrYEcJoQtAGrzcwbMgL0=",
+      "owner": "<unknown>"
     },
     {
-      "label": "Visa_eCommerce_Root",
+      "label": "Visa eCommerce Root",
       "binNumber": 26,
-      "sha256Fingerprint": "afrJvVX7CseNU7vuXPHVl5if0KqrIKJRUb3xcz7n0SI="
+      "sha256Fingerprint": "afrJvVX7CseNU7vuXPHVl5if0KqrIKJRUb3xcz7n0SI=",
+      "owner": "Visa"
     },
     {
-      "label": "Certum_CA",
+      "label": "Certum CA",
       "binNumber": 27,
-      "sha256Fingerprint": "2OD+vB2y440AlA830n1BNE2ZPnNLmdVlbZd41NgUNiQ="
+      "sha256Fingerprint": "2OD+vB2y440AlA830n1BNE2ZPnNLmdVlbZd41NgUNiQ=",
+      "owner": "Asseco Data Systems S.A. (previously Unizeto Certum)"
     },
     {
-      "label": "AAA_Certificate_Services",
+      "label": "AAA Certificate Services",
       "binNumber": 28,
-      "sha256Fingerprint": "16eg+11+JzHXcelITrze9x1fDD4KKUh4K8g+4OppnvQ="
+      "sha256Fingerprint": "16eg+11+JzHXcelITrze9x1fDD4KKUh4K8g+4OppnvQ=",
+      "owner": "Sectigo"
     },
     {
-      "label": "Secure_Certificate_Services",
+      "label": "Secure Certificate Services",
       "binNumber": 29,
-      "sha256Fingerprint": "vYHOO09lkdEaZ7X8ekf97yVSG/mqThi5498uNKeAO+g="
+      "sha256Fingerprint": "vYHOO09lkdEaZ7X8ekf97yVSG/mqThi5498uNKeAO+g=",
+      "owner": "Sectigo"
     },
     {
-      "label": "Trusted_Certificate_Services",
+      "label": "Trusted Certificate Services",
       "binNumber": 30,
-      "sha256Fingerprint": "PwblVoHUlvW+Fp61OJ+fK4/2HhcI32iBckhJzV0ny2k="
+      "sha256Fingerprint": "PwblVoHUlvW+Fp61OJ+fK4/2HhcI32iBckhJzV0ny2k=",
+      "owner": "Sectigo"
     },
     {
-      "label": "QuoVadis_Root_Certification_Authority",
+      "label": "QuoVadis Root Certification Authority",
       "binNumber": 31,
-      "sha256Fingerprint": "pF7eO7vwnIrhXHLvwHJo1pOiHJlv1R5nygeUYP1tiHM="
+      "sha256Fingerprint": "pF7eO7vwnIrhXHLvwHJo1pOiHJlv1R5nygeUYP1tiHM=",
+      "owner": "DigiCert"
     },
     {
-      "label": "QuoVadis_Root_CA_2",
+      "label": "QuoVadis Root CA 2",
       "binNumber": 32,
-      "sha256Fingerprint": "haDdfdcgrbf/Bfg9VCsgncf/RSj31nexg4n+peXEnoY="
+      "sha256Fingerprint": "haDdfdcgrbf/Bfg9VCsgncf/RSj31nexg4n+peXEnoY=",
+      "owner": "DigiCert"
     },
     {
-      "label": "QuoVadis_Root_CA_3",
+      "label": "QuoVadis Root CA 3",
       "binNumber": 33,
-      "sha256Fingerprint": "GPH8fyBd+K3d63/gB91X4683WpxNjXNUa/Tx/tHhjTU="
+      "sha256Fingerprint": "GPH8fyBd+K3d63/gB91X4683WpxNjXNUa/Tx/tHhjTU=",
+      "owner": "DigiCert"
     },
     {
-      "label": "OU_Security_Communication_RootCA1_O_SECOM_Trust_net_C_JP",
+      "label": "SECOM Trust.net - Security Communication RootCA1",
       "binNumber": 34,
-      "sha256Fingerprint": "515y7Z9WDuxutIAAc6Q/w60ZGVo5IoIBeJWXSpkCa2w="
+      "sha256Fingerprint": "515y7Z9WDuxutIAAc6Q/w60ZGVo5IoIBeJWXSpkCa2w=",
+      "owner": "SECOM Trust Systems Co. Ltd."
     },
     {
-      "label": "Sonera_Class2_CA",
+      "label": "Sonera Class2 CA",
       "binNumber": 35,
-      "sha256Fingerprint": "eQi0AxTBOBALUY0HNYB/+/z4UYoAlTNxBbo4axU92Sc="
+      "sha256Fingerprint": "eQi0AxTBOBALUY0HNYB/+/z4UYoAlTNxBbo4axU92Sc=",
+      "owner": "Telia Company (formerly TeliaSonera)"
     },
     {
       "label": "Staat_der_Nederlanden_Root_CA",
       "binNumber": 36,
-      "sha256Fingerprint": "1B2CnowWWYIq+T/OYr/83iZPyE6LlQxf8nXQUjVGlaM="
+      "sha256Fingerprint": "1B2CnowWWYIq+T/OYr/83iZPyE6LlQxf8nXQUjVGlaM=",
+      "owner": "<unknown>"
     },
     {
       "label": "UTN___DATACorp_SGC",
       "binNumber": 37,
-      "sha256Fingerprint": "hfsvkd0SJ1oBRbY2U0+EAkrWi2m47ohoT/cRN1gFs0g="
+      "sha256Fingerprint": "hfsvkd0SJ1oBRbY2U0+EAkrWi2m47ohoT/cRN1gFs0g=",
+      "owner": "<unknown>"
     },
     {
-      "label": "UTN_USERFirst_Hardware",
+      "label": "UTN-USERFirst-Hardware",
       "binNumber": 38,
-      "sha256Fingerprint": "bqVHQdAEZn7tG0gWY0qjp55uS5aVD4J52vyNm9iBITc="
+      "sha256Fingerprint": "bqVHQdAEZn7tG0gWY0qjp55uS5aVD4J52vyNm9iBITc=",
+      "owner": "Sectigo"
     },
     {
-      "label": "Chambers_of_Commerce_Root",
+      "label": "Chambers of Commerce Root",
       "binNumber": 39,
-      "sha256Fingerprint": "DCWKEqVnSu8l8oun3Prs7qNI5UHm9cxO5jtxs2FgasM="
+      "sha256Fingerprint": "DCWKEqVnSu8l8oun3Prs7qNI5UHm9cxO5jtxs2FgasM=",
+      "owner": "Camerfirma"
     },
     {
-      "label": "Global_Chambersign_Root",
+      "label": "Global Chambersign Root",
       "binNumber": 40,
-      "sha256Fingerprint": "7zy0F/yOv2+Xh2yeTs453h6l/mSRQdECi30RwLIpjO0="
+      "sha256Fingerprint": "7zy0F/yOv2+Xh2yeTs453h6l/mSRQdECi30RwLIpjO0=",
+      "owner": "Camerfirma"
     },
     {
       "label": "NetLock_Kozjegyzoi__Class_A__Tanusitvanykiado",
       "binNumber": 41,
-      "sha256Fingerprint": "fxLNX35eKQ7H2FF51bcsIKW+dQj/21v4GrloSn/J9mc="
+      "sha256Fingerprint": "fxLNX35eKQ7H2FF51bcsIKW+dQj/21v4GrloSn/J9mc=",
+      "owner": "<unknown>"
     },
     {
-      "label": "XRamp_Global_Certification_Authority",
+      "label": "XRamp Global Certification Authority",
       "binNumber": 42,
-      "sha256Fingerprint": "zs3ckFCZ2NrfxbHSCbc3y+LBjPssEMD/C88NMob8GqI="
+      "sha256Fingerprint": "zs3ckFCZ2NrfxbHSCbc3y+LBjPssEMD/C88NMob8GqI=",
+      "owner": "Trustwave"
     },
     {
-      "label": "OU_Go_Daddy_Class_2_Certification_Authority_O__The_Go_Daddy_Group__Inc___C_US",
+      "label": "Go Daddy Class 2 CA",
       "binNumber": 43,
-      "sha256Fingerprint": "w4Rr8kuek8pkJ0wOxnwezF4CT/ys0tdAGTUOgf5UauQ="
+      "sha256Fingerprint": "w4Rr8kuek8pkJ0wOxnwezF4CT/ys0tdAGTUOgf5UauQ=",
+      "owner": "GoDaddy"
     },
     {
-      "label": "OU_Starfield_Class_2_Certification_Authority_O__Starfield_Technologies__Inc___C_US",
+      "label": "Starfield Class 2 CA",
       "binNumber": 44,
-      "sha256Fingerprint": "FGX6IFOXuHb6pvCplY5VkOQPzH+qT7fCyGd1Iftftlg="
+      "sha256Fingerprint": "FGX6IFOXuHb6pvCplY5VkOQPzH+qT7fCyGd1Iftftlg=",
+      "owner": "GoDaddy"
     },
     {
-      "label": "StartCom_Certification_Authority",
+      "label": "StartCom Certification Authority",
       "binNumber": 45,
-      "sha256Fingerprint": "x2apvvLUBxyGOjGqSSDoE7LRmGCMt7fP4hFDuDbfCeo="
+      "sha256Fingerprint": "x2apvvLUBxyGOjGqSSDoE7LRmGCMt7fP4hFDuDbfCeo=",
+      "owner": "Start Commercial (StartCom) Ltd."
     },
     {
-      "label": "O_Government_Root_Certification_Authority_C_TW",
+      "label": "Government Root Certification Authority - Taiwan",
       "binNumber": 46,
-      "sha256Fingerprint": "dgApXu/oW54f1iTbdgYqqq5ZgYpU0ndM1MCywBEx4bM="
+      "sha256Fingerprint": "dgApXu/oW54f1iTbdgYqqq5ZgYpU0ndM1MCywBEx4bM=",
+      "owner": "Government of Taiwan, Government Root Certification Authority (GRCA)"
     },
     {
-      "label": "Swisscom_Root_CA_1",
+      "label": "Swisscom Root CA 1",
       "binNumber": 47,
-      "sha256Fingerprint": "IdsgEjZguy7UGCBdoR7nqFpl4rxuVbWvfniZyKJm2S4="
+      "sha256Fingerprint": "IdsgEjZguy7UGCBdoR7nqFpl4rxuVbWvfniZyKJm2S4=",
+      "owner": "Swisscom (Switzerland) Ltd"
     },
     {
-      "label": "DigiCert_Assured_ID_Root_CA",
+      "label": "DigiCert Assured ID Root CA",
       "binNumber": 48,
-      "sha256Fingerprint": "PpCZtQFej0hsALzqnREe5yH6ujVaibzx32lWHj3GMlw="
+      "sha256Fingerprint": "PpCZtQFej0hsALzqnREe5yH6ujVaibzx32lWHj3GMlw=",
+      "owner": "DigiCert"
     },
     {
-      "label": "DigiCert_Global_Root_CA",
+      "label": "DigiCert Global Root CA",
       "binNumber": 49,
-      "sha256Fingerprint": "Q0ig6URMeMsmXgWNXolEtNhPlmK9Jtslf4k0pEPHAWE="
+      "sha256Fingerprint": "Q0ig6URMeMsmXgWNXolEtNhPlmK9Jtslf4k0pEPHAWE=",
+      "owner": "DigiCert"
     },
     {
-      "label": "DigiCert_High_Assurance_EV_Root_CA",
+      "label": "DigiCert High Assurance EV Root CA",
       "binNumber": 50,
-      "sha256Fingerprint": "dDHl9MPBzkaQd08LYeBUQIg7qaAe0Aumq9eAbtOxGM8="
+      "sha256Fingerprint": "dDHl9MPBzkaQd08LYeBUQIg7qaAe0Aumq9eAbtOxGM8=",
+      "owner": "DigiCert"
     },
     {
-      "label": "Class_2_Primary_CA",
+      "label": "Class 2 Primary CA",
       "binNumber": 51,
-      "sha256Fingerprint": "D5k8iu+Xuq9WhxQO1ZrRghu0r6zwqppYtdV6M4o6+8s="
+      "sha256Fingerprint": "D5k8iu+Xuq9WhxQO1ZrRghu0r6zwqppYtdV6M4o6+8s=",
+      "owner": "DocuSign (OpenTrust/Keynectis)"
     },
     {
-      "label": "DST_Root_CA_X3",
+      "label": "DST Root CA X3",
       "binNumber": 52,
-      "sha256Fingerprint": "BocmAzGnJAPZCfEF5pvPDTLhvSST/8bZIG0RvNZ3Bzk="
+      "sha256Fingerprint": "BocmAzGnJAPZCfEF5pvPDTLhvSST/8bZIG0RvNZ3Bzk=",
+      "owner": "IdenTrust"
     },
     {
-      "label": "DST_ACES_CA_X6",
+      "label": "DST ACES CA X6",
       "binNumber": 53,
-      "sha256Fingerprint": "dnyVWnZBLImvaI6QoccPVWz9a2Al2+oQQW1+toMfjEA="
+      "sha256Fingerprint": "dnyVWnZBLImvaI6QoccPVWz9a2Al2+oQQW1+toMfjEA=",
+      "owner": "IdenTrust"
     },
     {
       "label": "T_RKTRUST_Elektronik_Sertifika_Hizmet_Sa_lay_c_s_",
       "binNumber": 54,
-      "sha256Fingerprint": "RATjO14UDc+ZgFH9/IAox8gWFcXuc3sRG1iCM6m1NaA="
+      "sha256Fingerprint": "RATjO14UDc+ZgFH9/IAox8gWFcXuc3sRG1iCM6m1NaA=",
+      "owner": "<unknown>"
     },
     {
       "label": "T_RKTRUST_Elektronik_Sertifika_Hizmet_Sa_lay_c_s_",
       "binNumber": 55,
-      "sha256Fingerprint": "xHDPVH4jArl3+yndcaiae2wfYHd7Ayn1YBfzKL9Pa+Y="
+      "sha256Fingerprint": "xHDPVH4jArl3+yndcaiae2wfYHd7Ayn1YBfzKL9Pa+Y=",
+      "owner": "<unknown>"
     },
     {
-      "label": "SwissSign_Gold_CA___G2",
+      "label": "SwissSign Gold CA - G2",
       "binNumber": 56,
-      "sha256Fingerprint": "Yt0L6bn1ChY+oPjnXAU7HspX6lXIaI9kfGiB8sg1e5U="
+      "sha256Fingerprint": "Yt0L6bn1ChY+oPjnXAU7HspX6lXIaI9kfGiB8sg1e5U=",
+      "owner": "SwissSign AG"
     },
     {
-      "label": "SwissSign_Silver_CA___G2",
+      "label": "SwissSign Silver CA - G2",
       "binNumber": 57,
-      "sha256Fingerprint": "vmxNoru5ulm285OXaDdCRsPABZk/qY8CDR3tvtSKgdU="
+      "sha256Fingerprint": "vmxNoru5ulm285OXaDdCRsPABZk/qY8CDR3tvtSKgdU=",
+      "owner": "SwissSign AG"
     },
     {
-      "label": "GeoTrust_Primary_Certification_Authority",
+      "label": "GeoTrust Primary Certification Authority",
       "binNumber": 58,
-      "sha256Fingerprint": "N9UQBsUS6qtiZCHx7IySAT/F+CrpjuUz60YZuN600Gw="
+      "sha256Fingerprint": "N9UQBsUS6qtiZCHx7IySAT/F+CrpjuUz60YZuN600Gw=",
+      "owner": "DigiCert"
     },
     {
-      "label": "thawte_Primary_Root_CA",
+      "label": "thawte Primary Root CA",
       "binNumber": 59,
-      "sha256Fingerprint": "jXIvganBE8B5HfE2opZtsmyVCpcdtGtBmfTqVLeL+58="
+      "sha256Fingerprint": "jXIvganBE8B5HfE2opZtsmyVCpcdtGtBmfTqVLeL+58=",
+      "owner": "DigiCert"
     },
     {
-      "label": "VeriSign_Class_3_Public_Primary_Certification_Authority___G5",
+      "label": "VeriSign Class 3 Public Primary Certification Authority - G5",
       "binNumber": 60,
-      "sha256Fingerprint": "ms+rfkPI2IDQayYqlN7u5LRlmYnD0Mrxm69kBeQat98="
+      "sha256Fingerprint": "ms+rfkPI2IDQayYqlN7u5LRlmYnD0Mrxm69kBeQat98=",
+      "owner": "DigiCert"
     },
     {
-      "label": "SecureTrust_CA",
+      "label": "SecureTrust CA",
       "binNumber": 61,
-      "sha256Fingerprint": "8cG1CuWiDdgDDsn2vCSCPdNntSVXWbTnG2H86fc3XXM="
+      "sha256Fingerprint": "8cG1CuWiDdgDDsn2vCSCPdNntSVXWbTnG2H86fc3XXM=",
+      "owner": "Trustwave"
     },
     {
-      "label": "Secure_Global_CA",
+      "label": "Secure Global CA",
       "binNumber": 62,
-      "sha256Fingerprint": "QgD1BDrIWQ67Un0gntFQMCn7y9QcobUG7CfxWt59rGk="
+      "sha256Fingerprint": "QgD1BDrIWQ67Un0gntFQMCn7y9QcobUG7CfxWt59rGk=",
+      "owner": "Trustwave"
     },
     {
-      "label": "COMODO_Certification_Authority",
+      "label": "COMODO Certification Authority",
       "binNumber": 63,
-      "sha256Fingerprint": "DCzWPfeAb6OZ7egJEWtXW/h5ifBlGPmAjIYFAxeLr2Y="
+      "sha256Fingerprint": "DCzWPfeAb6OZ7egJEWtXW/h5ifBlGPmAjIYFAxeLr2Y=",
+      "owner": "Sectigo"
     },
     {
-      "label": "Network_Solutions_Certificate_Authority",
+      "label": "Network Solutions Certificate Authority",
       "binNumber": 64,
-      "sha256Fingerprint": "FfC6AKOsevOsiEwHKxARoHe9d8CX9AFksvhZir2Dhgw="
+      "sha256Fingerprint": "FfC6AKOsevOsiEwHKxARoHe9d8CX9AFksvhZir2Dhgw=",
+      "owner": "Web.com"
     },
     {
-      "label": "WellsSecure_Public_Root_Certificate_Authority",
+      "label": "WellsSecure Public Root Certificate Authority",
       "binNumber": 65,
-      "sha256Fingerprint": "pxJyrqqjz+hyf3+znw+z0eVCbpBgsG7m8T6aPFgzzUM="
+      "sha256Fingerprint": "pxJyrqqjz+hyf3+znw+z0eVCbpBgsG7m8T6aPFgzzUM=",
+      "owner": "Wells Fargo Bank N.A."
     },
     {
-      "label": "COMODO_ECC_Certification_Authority",
+      "label": "COMODO ECC Certification Authority",
       "binNumber": 66,
-      "sha256Fingerprint": "F5OSegYUVJeJrc4vjzT38LZtDzrjo7hNIewV27pPrcc="
+      "sha256Fingerprint": "F5OSegYUVJeJrc4vjzT38LZtDzrjo7hNIewV27pPrcc=",
+      "owner": "Sectigo"
     },
     {
       "label": "IGC_A",
       "binNumber": 67,
-      "sha256Fingerprint": "ub6nhgqWLqNhHauXq22j4hwQaLl9VVde0OESecEciTI="
+      "sha256Fingerprint": "ub6nhgqWLqNhHauXq22j4hwQaLl9VVde0OESecEciTI=",
+      "owner": "<unknown>"
     },
     {
-      "label": "OU_Security_Communication_EV_RootCA1_O__SECOM_Trust_Systems_CO__LTD___C_JP",
+      "label": "Security Communication EV RootCA1",
       "binNumber": 68,
-      "sha256Fingerprint": "oi26aB6XN24tOX1yiq46m2KWuf26YLwuEfZH8sZ1+zc="
+      "sha256Fingerprint": "oi26aB6XN24tOX1yiq46m2KWuf26YLwuEfZH8sZ1+zc=",
+      "owner": "SECOM Trust Systems Co. Ltd."
     },
     {
-      "label": "OISTE_WISeKey_Global_Root_GA_CA",
+      "label": "OISTE WISeKey Global Root GA CA",
       "binNumber": 69,
-      "sha256Fingerprint": "Qckjhmq0yta3rVeAgVguAgeXpsvfT/94zoOWs4k31/U="
+      "sha256Fingerprint": "Qckjhmq0yta3rVeAgVguAgeXpsvfT/94zoOWs4k31/U=",
+      "owner": "WISeKey"
     },
     {
-      "label": "Microsec_e_Szigno_Root_CA",
+      "label": "Microsec e-Szigno Root CA",
       "binNumber": 70,
-      "sha256Fingerprint": "Mno9dhq63qA065mEBidcsaR3bv2uL99tAWjqHE9VZ9A="
+      "sha256Fingerprint": "Mno9dhq63qA065mEBidcsaR3bv2uL99tAWjqHE9VZ9A=",
+      "owner": "Microsec e-Szignó CA"
     },
     {
       "label": "Certigna",
       "binNumber": 71,
-      "sha256Fingerprint": "47ai2y7XzkiEL3rFMkHHtx1UFEv7QMEfPx0LQvXuoS0="
+      "sha256Fingerprint": "47ai2y7XzkiEL3rFMkHHtx1UFEv7QMEfPx0LQvXuoS0=",
+      "owner": "Dhimyotis"
     },
     {
       "label": "TC_TrustCenter_Class_2_CA_II",
       "binNumber": 72,
-      "sha256Fingerprint": "5rj4dmSF+Aeuf42sFnBGHwfAoT7vOh/3F1ONerrTkbQ="
+      "sha256Fingerprint": "5rj4dmSF+Aeuf42sFnBGHwfAoT7vOh/3F1ONerrTkbQ=",
+      "owner": "<unknown>"
     },
     {
-      "label": "TC_TrustCenter_Class_3_CA_II",
+      "label": "TC TrustCenter Class 3 CA II",
       "binNumber": 73,
-      "sha256Fingerprint": "jaCE/Pmc4Hci+JsyBZOYBvpcuBHhyBP2oQjH0zazQI4="
+      "sha256Fingerprint": "jaCE/Pmc4Hci+JsyBZOYBvpcuBHhyBP2oQjH0zazQI4=",
+      "owner": "Deutscher Sparkassen Verlag GmbH (S-TRUST, DSV-Gruppe)"
     },
     {
       "label": "TC_TrustCenter_Universal_CA_I",
       "binNumber": 74,
-      "sha256Fingerprint": "6/PAKoeJsft9URmV1mO3KQbZE84NXhBWiop34lhhZ+c="
+      "sha256Fingerprint": "6/PAKoeJsft9URmV1mO3KQbZE84NXhBWiop34lhhZ+c=",
+      "owner": "<unknown>"
     },
     {
-      "label": "Deutsche_Telekom_Root_CA_2",
+      "label": "Deutsche Telekom Root CA 2",
       "binNumber": 75,
-      "sha256Fingerprint": "thkaUNDDl399qZvNqshqIn2uuWeexwujsMnZInHBcNM="
+      "sha256Fingerprint": "thkaUNDDl399qZvNqshqIn2uuWeexwujsMnZInHBcNM=",
+      "owner": "T-Systems International GmbH (Deutsche Telekom)"
     },
     {
-      "label": "ComSign_Secured_CA",
+      "label": "ComSign Secured CA",
       "binNumber": 76,
-      "sha256Fingerprint": "UHlBx0RgoLRwhiINTpkyVyq10bW7y4mAqxyxdlGoRNI="
+      "sha256Fingerprint": "UHlBx0RgoLRwhiINTpkyVyq10bW7y4mAqxyxdlGoRNI=",
+      "owner": "ComSign"
     },
     {
-      "label": "Cybertrust_Global_Root",
+      "label": "Cybertrust Global Root",
       "binNumber": 77,
-      "sha256Fingerprint": "lgrfAGPpY1Z1DCll3QoIZ9oLnL1ud3FK6vsjSas5PaM="
+      "sha256Fingerprint": "lgrfAGPpY1Z1DCll3QoIZ9oLnL1ud3FK6vsjSas5PaM=",
+      "owner": "DigiCert"
     },
     {
-      "label": "OU_ePKI_Root_Certification_Authority_O__Chunghwa_Telecom_Co___Ltd___C_TW",
+      "label": "Chunghwa Telecom Co., Ltd. - ePKI Root Certification Authority",
       "binNumber": 78,
-      "sha256Fingerprint": "wKb03GOiS/3PVO8qaggqCnLeNYA+L/X/Unrl2HIG39U="
+      "sha256Fingerprint": "wKb03GOiS/3PVO8qaggqCnLeNYA+L/X/Unrl2HIG39U=",
+      "owner": "Chunghwa Telecom Corporation"
     },
     {
-      "label": "T_B_TAK_UEKAE_K_k_Sertifika_Hizmet_Sa_lay_c_s____S_r_m_3",
+      "label": "TÜBİTAK UEKAE Kök Sertifika Hizmet Sağlayıcısı - Sürüm 3",
       "binNumber": 79,
-      "sha256Fingerprint": "5Mc0MNeltQkl30M3Cg0hbpp5udbbg3Ogxp6xzDHHxSo="
+      "sha256Fingerprint": "5Mc0MNeltQkl30M3Cg0hbpp5udbbg3Ogxp6xzDHHxSo=",
+      "owner": "Government of Turkey, Kamu Sertifikasyon Merkezi (Kamu SM)"
     },
     {
       "label": "Buypass_Class_2_CA_1",
       "binNumber": 80,
-      "sha256Fingerprint": "D06c3SZLAlVQ0XCAY0AhT+lENMmwL2l+xxD8X+r7Xjg="
+      "sha256Fingerprint": "D06c3SZLAlVQ0XCAY0AhT+lENMmwL2l+xxD8X+r7Xjg=",
+      "owner": "<unknown>"
     },
     {
       "label": "Buypass_Class_3_CA_1",
       "binNumber": 81,
-      "sha256Fingerprint": "t7ErFx+CHaqZDND+UIexKESLqOUYT4TFHgK1yPuWKyQ="
+      "sha256Fingerprint": "t7ErFx+CHaqZDND+UIexKESLqOUYT4TFHgK1yPuWKyQ=",
+      "owner": "<unknown>"
     },
     {
       "label": "EBG_Elektronik_Sertifika_Hizmet_Sa_lay_c_s_",
       "binNumber": 82,
-      "sha256Fingerprint": "Na5b3dj3rmNc/7pWgqjwC5X0hGLHEI7poOUpKwdKr7I="
+      "sha256Fingerprint": "Na5b3dj3rmNc/7pWgqjwC5X0hGLHEI7poOUpKwdKr7I=",
+      "owner": "<unknown>"
     },
     {
-      "label": "OU_certSIGN_ROOT_CA_O_certSIGN_C_RO",
+      "label": "certSIGN ROOT CA",
       "binNumber": 83,
-      "sha256Fingerprint": "6qlixPpKa6/r5BUZbTUczYiNT1Pz+orm18RmqU5gQrs="
+      "sha256Fingerprint": "6qlixPpKa6/r5BUZbTUczYiNT1Pz+orm18RmqU5gQrs=",
+      "owner": "certSIGN"
     },
     {
-      "label": "CNNIC_ROOT",
+      "label": "CNNIC ROOT",
       "binNumber": 84,
-      "sha256Fingerprint": "4oOTdz2oRaZ58ggMx/tEo7ehw3kst+t3Kf3Lao2Zrqc="
+      "sha256Fingerprint": "4oOTdz2oRaZ58ggMx/tEo7ehw3kst+t3Kf3Lao2Zrqc=",
+      "owner": "China Internet Network Information Center (CNNIC)"
     },
     {
-      "label": "OU_ApplicationCA_O_Japanese_Government_C_JP",
+      "label": "Japanese Government ApplicationCA",
       "binNumber": 85,
-      "sha256Fingerprint": "LUdDfeF5USFaEvPFjlHHKaWAJu8fzApfs9ncAS9gDRk="
+      "sha256Fingerprint": "LUdDfeF5USFaEvPFjlHHKaWAJu8fzApfs9ncAS9gDRk=",
+      "owner": "Government of Japan, Ministry of Internal Affairs and Communications"
     },
     {
-      "label": "GeoTrust_Primary_Certification_Authority___G3",
+      "label": "GeoTrust Primary Certification Authority - G3",
       "binNumber": 86,
-      "sha256Fingerprint": "tHi4EiUN+HhjXCqn7H0VXqpiXugpFuLNKUNhiGzR+9Q="
+      "sha256Fingerprint": "tHi4EiUN+HhjXCqn7H0VXqpiXugpFuLNKUNhiGzR+9Q=",
+      "owner": "DigiCert"
     },
     {
-      "label": "thawte_Primary_Root_CA___G2",
+      "label": "thawte Primary Root CA - G2",
       "binNumber": 87,
-      "sha256Fingerprint": "pDENUK8YpkRxkDcqhq+vi5Uf+0Mdg38eVoi0WXHtFVc="
+      "sha256Fingerprint": "pDENUK8YpkRxkDcqhq+vi5Uf+0Mdg38eVoi0WXHtFVc=",
+      "owner": "DigiCert"
     },
     {
-      "label": "thawte_Primary_Root_CA___G3",
+      "label": "thawte Primary Root CA - G3",
       "binNumber": 88,
-      "sha256Fingerprint": "SwP0WAetcPIb/Cyuccn95GBMBkz1/7aGuuXbqtf900w="
+      "sha256Fingerprint": "SwP0WAetcPIb/Cyuccn95GBMBkz1/7aGuuXbqtf900w=",
+      "owner": "DigiCert"
     },
     {
-      "label": "GeoTrust_Primary_Certification_Authority___G2",
+      "label": "GeoTrust Primary Certification Authority - G2",
       "binNumber": 89,
-      "sha256Fingerprint": "Xtt6xDuCoGqHYejXvkl56/JhH33Xm/kcHGtWaiGe12Y="
+      "sha256Fingerprint": "Xtt6xDuCoGqHYejXvkl56/JhH33Xm/kcHGtWaiGe12Y=",
+      "owner": "DigiCert"
     },
     {
-      "label": "VeriSign_Universal_Root_Certification_Authority",
+      "label": "VeriSign Universal Root Certification Authority",
       "binNumber": 90,
-      "sha256Fingerprint": "I5lWESelcSXejO/qYQ3fL6B4tcgGf06CgpC/uGDoSzw="
+      "sha256Fingerprint": "I5lWESelcSXejO/qYQ3fL6B4tcgGf06CgpC/uGDoSzw=",
+      "owner": "DigiCert"
     },
     {
-      "label": "VeriSign_Class_3_Public_Primary_Certification_Authority___G4",
+      "label": "VeriSign Class 3 Public Primary Certification Authority - G4",
       "binNumber": 91,
-      "sha256Fingerprint": "ad3X6pC7V8k+E13IXqb81UgLYDI5vcRU/HWLKibPf3k="
+      "sha256Fingerprint": "ad3X6pC7V8k+E13IXqb81UgLYDI5vcRU/HWLKibPf3k=",
+      "owner": "DigiCert"
     },
     {
-      "label": "NetLock_Arany__Class_Gold__F_tan_s_tv_ny",
+      "label": "NetLock Arany (Class Gold) Főtanúsítvány",
       "binNumber": 92,
-      "sha256Fingerprint": "bGHaw6Le8DFQa+A20qb+QBmU+9E9+cjUZlmSdMRG7Jg="
+      "sha256Fingerprint": "bGHaw6Le8DFQa+A20qb+QBmU+9E9+cjUZlmSdMRG7Jg=",
+      "owner": "NetLock Ltd."
     },
     {
-      "label": "Staat_der_Nederlanden_Root_CA___G2",
+      "label": "Staat der Nederlanden Root CA - G2",
       "binNumber": 93,
-      "sha256Fingerprint": "ZoyDlH2mO3JL7OF0PDGg5q7Q247Fsxvjd7t4T5G2cW8="
+      "sha256Fingerprint": "ZoyDlH2mO3JL7OF0PDGg5q7Q247Fsxvjd7t4T5G2cW8=",
+      "owner": "Government of The Netherlands, PKIoverheid (Logius)"
     },
     {
       "label": "CA_Disig",
       "binNumber": 94,
-      "sha256Fingerprint": "kr9RGavsytCxMy3E4dBfunW1Z5BE7gyibpMfdE8vM88="
+      "sha256Fingerprint": "kr9RGavsytCxMy3E4dBfunW1Z5BE7gyibpMfdE8vM88=",
+      "owner": "<unknown>"
     },
     {
       "label": "Juur_SK",
       "binNumber": 95,
-      "sha256Fingerprint": "7MPpw0B1A77gkaqVL0E0j/iLqoY7ImS++sgHkBV06Tk="
+      "sha256Fingerprint": "7MPpw0B1A77gkaqVL0E0j/iLqoY7ImS++sgHkBV06Tk=",
+      "owner": "<unknown>"
     },
     {
-      "label": "Hongkong_Post_Root_CA_1",
+      "label": "Hongkong Post Root CA 1",
       "binNumber": 96,
-      "sha256Fingerprint": "+eZ9M2xRACrAVMYyAi1m3aLn4//xCtBh7THYu7QQz7I="
+      "sha256Fingerprint": "+eZ9M2xRACrAVMYyAi1m3aLn4//xCtBh7THYu7QQz7I=",
+      "owner": "Government of Hong Kong (SAR), Hongkong Post, Certizen"
     },
     {
-      "label": "SecureSign_RootCA11",
+      "label": "SecureSign RootCA11",
       "binNumber": 97,
-      "sha256Fingerprint": "vw/u+546WBrV+enbdYmYV0PSYQhcTTFPb11yWapCFhI="
+      "sha256Fingerprint": "vw/u+546WBrV+enbdYmYV0PSYQhcTTFPb11yWapCFhI=",
+      "owner": "Cybertrust Japan"
     },
     {
-      "label": "ACEDICOM_Root",
+      "label": "ACEDICOM Root",
       "binNumber": 98,
-      "sha256Fingerprint": "A5UPtJpTHz4ZkZQjmN+p4Ooy17oc3ZvIXbV+2UALQ0o="
+      "sha256Fingerprint": "A5UPtJpTHz4ZkZQjmN+p4Ooy17oc3ZvIXbV+2UALQ0o=",
+      "owner": "EDICOM"
     },
     {
-      "label": "Microsec_e_Szigno_Root_CA_2009",
+      "label": "Microsec e-Szigno Root CA 2009",
       "binNumber": 99,
-      "sha256Fingerprint": "PF+B/qX6uCxkv6Lq7K/N6OB3/IYgp8rlNxY9827b83g="
+      "sha256Fingerprint": "PF+B/qX6uCxkv6Lq7K/N6OB3/IYgp8rlNxY9827b83g=",
+      "owner": "Microsec e-Szignó CA"
     },
     {
       "label": "e_Guven_Kok_Elektronik_Sertifika_Hizmet_Saglayicisi",
       "binNumber": 100,
-      "sha256Fingerprint": "5gkHhGWkGXgMtqxMHAv7RlPZ2cxus5Rut/PWmZe61Zg="
+      "sha256Fingerprint": "5gkHhGWkGXgMtqxMHAv7RlPZ2cxus5Rut/PWmZe61Zg=",
+      "owner": "<unknown>"
     },
     {
-      "label": "GlobalSign",
+      "label": "GlobalSign Root CA - R3",
       "binNumber": 101,
-      "sha256Fingerprint": "y7Ui17fxJ61qAROGW98c1BAufQdZr2NafPRyDcljxTs="
+      "sha256Fingerprint": "y7Ui17fxJ61qAROGW98c1BAufQdZr2NafPRyDcljxTs=",
+      "owner": "GlobalSign"
     },
     {
-      "label": "Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068",
+      "label": "Autoridad de Certificacion Firmaprofesional CIF A62634068",
       "binNumber": 102,
-      "sha256Fingerprint": "BASAKL8fKGTUj5rU2DKUNmqCiFZVPzsUMD+QFH9dQO8="
+      "sha256Fingerprint": "BASAKL8fKGTUj5rU2DKUNmqCiFZVPzsUMD+QFH9dQO8=",
+      "owner": "Autoridad de Certificacion Firmaprofesional"
     },
     {
-      "label": "Izenpe_com",
+      "label": "Izenpe.com",
       "binNumber": 103,
-      "sha256Fingerprint": "JTDMjpgyFQK62W+bH7obCZ4tKZ4PRUi7kU82O8DUUx8="
+      "sha256Fingerprint": "JTDMjpgyFQK62W+bH7obCZ4tKZ4PRUi7kU82O8DUUx8=",
+      "owner": "Izenpe S.A."
     },
     {
-      "label": "Chambers_of_Commerce_Root___2008",
+      "label": "Chambers of Commerce Root - 2008",
       "binNumber": 104,
-      "sha256Fingerprint": "Bj5K+sSR39My8wibhULpRhfYk9f+lE4Qp5N+4p2Wk8A="
+      "sha256Fingerprint": "Bj5K+sSR39My8wibhULpRhfYk9f+lE4Qp5N+4p2Wk8A=",
+      "owner": "Camerfirma"
     },
     {
-      "label": "Global_Chambersign_Root___2008",
+      "label": "Global Chambersign Root - 2008",
       "binNumber": 105,
-      "sha256Fingerprint": "E2M1Q5M0p2mAFqDTJN5yKE4HnXtSILuPvXR4Fu6+uso="
+      "sha256Fingerprint": "E2M1Q5M0p2mAFqDTJN5yKE4HnXtSILuPvXR4Fu6+uso=",
+      "owner": "Camerfirma"
     },
     {
-      "label": "Go_Daddy_Root_Certificate_Authority___G2",
+      "label": "Go Daddy Root Certificate Authority - G2",
       "binNumber": 106,
-      "sha256Fingerprint": "RRQLMkfrnMjFtPDXtTCR9zKSCJ5uWmPidJ3TrKkZjto="
+      "sha256Fingerprint": "RRQLMkfrnMjFtPDXtTCR9zKSCJ5uWmPidJ3TrKkZjto=",
+      "owner": "GoDaddy"
     },
     {
-      "label": "Starfield_Root_Certificate_Authority___G2",
+      "label": "Starfield Root Certificate Authority - G2",
       "binNumber": 107,
-      "sha256Fingerprint": "LOHLC/nS+eECmT++IVFSw7LdDKveHGjlMZuDkVTbt/U="
+      "sha256Fingerprint": "LOHLC/nS+eECmT++IVFSw7LdDKveHGjlMZuDkVTbt/U=",
+      "owner": "GoDaddy"
     },
     {
-      "label": "Starfield_Services_Root_Certificate_Authority___G2",
+      "label": "Starfield Services Root Certificate Authority - G2",
       "binNumber": 108,
-      "sha256Fingerprint": "Vo1pBaLIhwikswJRkO3P7bGXSmBqE8blKQ/LKuY+2rU="
+      "sha256Fingerprint": "Vo1pBaLIhwikswJRkO3P7bGXSmBqE8blKQ/LKuY+2rU=",
+      "owner": "Amazon"
     },
     {
-      "label": "AffirmTrust_Commercial",
+      "label": "AffirmTrust Commercial",
       "binNumber": 109,
-      "sha256Fingerprint": "A3arHVTF+YA85LLiAaDufu97V7Y26Kk8m41IYMlvX6c="
+      "sha256Fingerprint": "A3arHVTF+YA85LLiAaDufu97V7Y26Kk8m41IYMlvX6c=",
+      "owner": "Entrust"
     },
     {
-      "label": "AffirmTrust_Networking",
+      "label": "AffirmTrust Networking",
       "binNumber": 110,
-      "sha256Fingerprint": "CoHsWpKXd/FFkErzjV1Qn2a14sWPzbUxBYsOF/PwtBs="
+      "sha256Fingerprint": "CoHsWpKXd/FFkErzjV1Qn2a14sWPzbUxBYsOF/PwtBs=",
+      "owner": "Entrust"
     },
     {
-      "label": "AffirmTrust_Premium",
+      "label": "AffirmTrust Premium",
       "binNumber": 111,
-      "sha256Fingerprint": "cKc/fzdrYAdCSJBFNLEUgtW/DmmOzEmN9SV36/LpO5o="
+      "sha256Fingerprint": "cKc/fzdrYAdCSJBFNLEUgtW/DmmOzEmN9SV36/LpO5o=",
+      "owner": "Entrust"
     },
     {
-      "label": "AffirmTrust_Premium_ECC",
+      "label": "AffirmTrust Premium ECC",
       "binNumber": 112,
-      "sha256Fingerprint": "vXH99tqX5M9i0WR63SWBsH15rfg5frTsupxehIiCFCM="
+      "sha256Fingerprint": "vXH99tqX5M9i0WR63SWBsH15rfg5frTsupxehIiCFCM=",
+      "owner": "Entrust"
     },
     {
-      "label": "Certum_Trusted_Network_CA",
+      "label": "Certum Trusted Network CA",
       "binNumber": 113,
-      "sha256Fingerprint": "XFhGjVX1jkl+dDmC0rUAELbRZTdKz4On1KMtt2jEQI4="
+      "sha256Fingerprint": "XFhGjVX1jkl+dDmC0rUAELbRZTdKz4On1KMtt2jEQI4=",
+      "owner": "Asseco Data Systems S.A. (previously Unizeto Certum)"
     },
     {
-      "label": "Certinomis___Autorit__Racine",
+      "label": "Certinomis - Autorité Racine",
       "binNumber": 114,
-      "sha256Fingerprint": "/L/iiGIG9ysnWTyLBwKX4S12ntEO15MHBagJjv/BTRc="
+      "sha256Fingerprint": "/L/iiGIG9ysnWTyLBwKX4S12ntEO15MHBagJjv/BTRc=",
+      "owner": "Certinomis"
     },
     {
       "label": "Root_CA_Generalitat_Valenciana",
       "binNumber": 115,
-      "sha256Fingerprint": "jE7f0ENI8yKWnn4ppM1NygBGVQYcFuGwdkIu80KtYw4="
+      "sha256Fingerprint": "jE7f0ENI8yKWnn4ppM1NygBGVQYcFuGwdkIu80KtYw4=",
+      "owner": "<unknown>"
     },
     {
       "label": "A_Trust_nQual_03",
       "binNumber": 116,
-      "sha256Fingerprint": "eTy/RVm5/eOKsi3xaGn2mIGuFMSwE5rHiKeKGvzKAvs="
+      "sha256Fingerprint": "eTy/RVm5/eOKsi3xaGn2mIGuFMSwE5rHiKeKGvzKAvs=",
+      "owner": "<unknown>"
     },
     {
-      "label": "TWCA_Root_Certification_Authority",
+      "label": "TWCA Root Certification Authority",
       "binNumber": 117,
-      "sha256Fingerprint": "v9iP4RAcQa4+gBv4vlY1Dum60aa5vVFe3FxtW4cRrEQ="
+      "sha256Fingerprint": "v9iP4RAcQa4+gBv4vlY1Dum60aa5vVFe3FxtW4cRrEQ=",
+      "owner": "Taiwan-CA Inc. (TWCA)"
     },
     {
-      "label": "OU_Security_Communication_RootCA2_O__SECOM_Trust_Systems_CO__LTD___C_JP",
+      "label": "Security Communication RootCA2",
       "binNumber": 118,
-      "sha256Fingerprint": "UTss7LgQ1M3l3YU5Gt/Gwt1g2Hu3NtK1IUhKpHoOvvY="
+      "sha256Fingerprint": "UTss7LgQ1M3l3YU5Gt/Gwt1g2Hu3NtK1IUhKpHoOvvY=",
+      "owner": "SECOM Trust Systems Co. Ltd."
     },
     {
-      "label": "EC_ACC",
+      "label": "EC-ACC",
       "binNumber": 119,
-      "sha256Fingerprint": "iEl/AWAvMVQkauKMTVrvEPHYfrt2Ym9K4Lf5W6eWh5k="
+      "sha256Fingerprint": "iEl/AWAvMVQkauKMTVrvEPHYfrt2Ym9K4Lf5W6eWh5k=",
+      "owner": "Consorci Administració Oberta de Catalunya (Consorci AOC, CATCert)"
     },
     {
-      "label": "Hellenic_Academic_and_Research_Institutions_RootCA_2011",
+      "label": "Hellenic Academic and Research Institutions RootCA 2011",
       "binNumber": 120,
-      "sha256Fingerprint": "vBBPFaSL5wncpUKn4dS5328FRSfoAuqpLVlURCWK/nE="
+      "sha256Fingerprint": "vBBPFaSL5wncpUKn4dS5328FRSfoAuqpLVlURCWK/nE=",
+      "owner": "HARICA"
     },
     {
-      "label": "Actalis_Authentication_Root_CA",
+      "label": "Actalis Authentication Root CA",
       "binNumber": 121,
-      "sha256Fingerprint": "VZJghOyWOmS5biq+Ac4LqGpk+/68x6q1r8FVs3/XYGY="
+      "sha256Fingerprint": "VZJghOyWOmS5biq+Ac4LqGpk+/68x6q1r8FVs3/XYGY=",
+      "owner": "Actalis"
     },
     {
-      "label": "OU_Trustis_FPS_Root_CA_O_Trustis_Limited_C_GB",
+      "label": "Trustis Limited - Trustis FPS Root CA",
       "binNumber": 122,
-      "sha256Fingerprint": "wbSCmaulII/pYwrOVcpooD7aWlGciAKg06Zzvo+OVX0="
+      "sha256Fingerprint": "wbSCmaulII/pYwrOVcpooD7aWlGciAKg06Zzvo+OVX0=",
+      "owner": "Trustis"
     },
     {
-      "label": "StartCom_Certification_Authority",
+      "label": "StartCom Certification Authority",
       "binNumber": 123,
-      "sha256Fingerprint": "4XiQ7gmj+/T0i5xBShfWN7elBkfpvHUjInJ/zBdCqRE="
+      "sha256Fingerprint": "4XiQ7gmj+/T0i5xBShfWN7elBkfpvHUjInJ/zBdCqRE=",
+      "owner": "Start Commercial (StartCom) Ltd."
     },
     {
-      "label": "StartCom_Certification_Authority_G2",
+      "label": "StartCom Certification Authority G2",
       "binNumber": 124,
-      "sha256Fingerprint": "x7plZ96Tp5iuH6p5HnEtN4+uH5PEOX/qRBu3y+b9WZU="
+      "sha256Fingerprint": "x7plZ96Tp5iuH6p5HnEtN4+uH5PEOX/qRBu3y+b9WZU=",
+      "owner": "Start Commercial (StartCom) Ltd."
     },
     {
-      "label": "Buypass_Class_2_Root_CA",
+      "label": "Buypass Class 2 Root CA",
       "binNumber": 125,
-      "sha256Fingerprint": "mhFAJRl8W7ldlOY9Vc1DeQhHtkayPN8RraSgDv8V+0g="
+      "sha256Fingerprint": "mhFAJRl8W7ldlOY9Vc1DeQhHtkayPN8RraSgDv8V+0g=",
+      "owner": "Buypass"
     },
     {
-      "label": "Buypass_Class_3_Root_CA",
+      "label": "Buypass Class 3 Root CA",
       "binNumber": 126,
-      "sha256Fingerprint": "7ffrvKJ6KjhNOHt9QBDGZuLttIQ+TCm0rh1bkzLmsk0="
+      "sha256Fingerprint": "7ffrvKJ6KjhNOHt9QBDGZuLttIQ+TCm0rh1bkzLmsk0=",
+      "owner": "Buypass"
     },
     {
-      "label": "T_TeleSec_GlobalRoot_Class_3",
+      "label": "T-TeleSec GlobalRoot Class 3",
       "binNumber": 127,
-      "sha256Fingerprint": "/XPa0xxkT/G0O+8MzdqWcQuc2Ydeyn4xcHrz6W1SK70="
+      "sha256Fingerprint": "/XPa0xxkT/G0O+8MzdqWcQuc2Ydeyn4xcHrz6W1SK70=",
+      "owner": "T-Systems International GmbH (Deutsche Telekom)"
     },
     {
-      "label": "EE_Certification_Centre_Root_CA",
+      "label": "EE Certification Centre Root CA",
       "binNumber": 128,
-      "sha256Fingerprint": "PoS6Q0KQhRbndXPAmS8JecoITkaFaB/xlcy6iiKbinY="
+      "sha256Fingerprint": "PoS6Q0KQhRbndXPAmS8JecoITkaFaB/xlcy6iiKbinY=",
+      "owner": "AS Sertifitseerimiskeskuse (SK)"
     },
     {
-      "label": "T_RKTRUST_Elektronik_Sertifika_Hizmet_Sa_lay_c_s_",
+      "label": "TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı 2007",
       "binNumber": 129,
-      "sha256Fingerprint": "l4zZZvL6oHunqpUA2cAunXfyza2mrWunSvS5HGZZPFA="
+      "sha256Fingerprint": "l4zZZvL6oHunqpUA2cAunXfyza2mrWunSvS5HGZZPFA=",
+      "owner": "TurkTrust"
     },
     {
-      "label": "D_TRUST_Root_Class_3_CA_2_2009",
+      "label": "D-TRUST Root Class 3 CA 2 2009",
       "binNumber": 130,
-      "sha256Fingerprint": "SeekQqzw6mKHBQBUtSVktlDk9J5C40jWqjjgOelXscE="
+      "sha256Fingerprint": "SeekQqzw6mKHBQBUtSVktlDk9J5C40jWqjjgOelXscE=",
+      "owner": "D-TRUST"
     },
     {
-      "label": "D_TRUST_Root_Class_3_CA_2_EV_2009",
+      "label": "D-TRUST Root Class 3 CA 2 EV 2009",
       "binNumber": 131,
-      "sha256Fingerprint": "7sVJa5iM6YYluTQJLuwpCL7QsPMWwtRzDITq8fPTSIE="
+      "sha256Fingerprint": "7sVJa5iM6YYluTQJLuwpCL7QsPMWwtRzDITq8fPTSIE=",
+      "owner": "D-TRUST"
     },
     {
       "label": "PSCProcert",
       "binNumber": 132,
-      "sha256Fingerprint": "PPw8FNH2hP8X44xDykQMALln7JM+i/4GTKHXLJDyrbA="
+      "sha256Fingerprint": "PPw8FNH2hP8X44xDykQMALln7JM+i/4GTKHXLJDyrbA=",
+      "owner": "PROCERT"
     },
     {
-      "label": "China_Internet_Network_Information_Center_EV_Certificates_Root",
+      "label": "China Internet Network Information Center EV Certificates Root",
       "binNumber": 133,
-      "sha256Fingerprint": "HAHG9Nuy/vwiVYsryjJWP0mESs/DK3vksP9Zn56Mevc="
+      "sha256Fingerprint": "HAHG9Nuy/vwiVYsryjJWP0mESs/DK3vksP9Zn56Mevc=",
+      "owner": "China Internet Network Information Center (CNNIC)"
     },
     {
-      "label": "Swisscom_Root_CA_2",
+      "label": "Swisscom Root CA 2",
       "binNumber": 134,
-      "sha256Fingerprint": "8JsSLHEU9KCb1OpPSpnVWLRuTCXNgRQNKcBWE5FMOEE="
+      "sha256Fingerprint": "8JsSLHEU9KCb1OpPSpnVWLRuTCXNgRQNKcBWE5FMOEE=",
+      "owner": "Swisscom (Switzerland) Ltd"
     },
     {
-      "label": "Swisscom_Root_EV_CA_2",
+      "label": "Swisscom Root EV CA 2",
       "binNumber": 135,
-      "sha256Fingerprint": "2V/qPKTu3OdM1251/G0f9ixEHw+ovHfwNLGeXbJYAV0="
+      "sha256Fingerprint": "2V/qPKTu3OdM1251/G0f9ixEHw+ovHfwNLGeXbJYAV0=",
+      "owner": "Swisscom (Switzerland) Ltd"
     },
     {
-      "label": "CA_Disig_Root_R1",
+      "label": "CA Disig Root R1",
       "binNumber": 136,
-      "sha256Fingerprint": "+W8j9MPnnAd6RpiNWvWQBnag8DnLZF3RdUmyFsgkQM4="
+      "sha256Fingerprint": "+W8j9MPnnAd6RpiNWvWQBnag8DnLZF3RdUmyFsgkQM4=",
+      "owner": "CA Disig a.s."
     },
     {
-      "label": "CA_Disig_Root_R2",
+      "label": "CA Disig Root R2",
       "binNumber": 137,
-      "sha256Fingerprint": "4j1KA217cOn1lbFCIHnSuR7fux+2UaBjPqqKncX4BwM="
+      "sha256Fingerprint": "4j1KA217cOn1lbFCIHnSuR7fux+2UaBjPqqKncX4BwM=",
+      "owner": "CA Disig a.s."
     },
     {
       "label": "ACCVRAIZ1",
       "binNumber": 138,
-      "sha256Fingerprint": "mm7AEuGn2p2+NBlNR4rXwNsYIvsHHfEpgUlu0QQ4QRM="
+      "sha256Fingerprint": "mm7AEuGn2p2+NBlNR4rXwNsYIvsHHfEpgUlu0QQ4QRM=",
+      "owner": "Government of Spain, Autoritat de Certificació de la Comunitat Valenciana (ACCV)"
     },
     {
-      "label": "TWCA_Global_Root_CA",
+      "label": "TWCA Global Root CA",
       "binNumber": 139,
-      "sha256Fingerprint": "WXaQB/doXQ/NUIcvn5XVdVpbK0V9gfNpK2EKmGcvDhs="
+      "sha256Fingerprint": "WXaQB/doXQ/NUIcvn5XVdVpbK0V9gfNpK2EKmGcvDhs=",
+      "owner": "Taiwan-CA Inc. (TWCA)"
     },
     {
-      "label": "TeliaSonera_Root_CA_v1",
+      "label": "TeliaSonera",
       "binNumber": 140,
-      "sha256Fingerprint": "3Wk2/iH48HfBI6GlIcEiJPciVbc+A6cmBpPooksPo4k="
+      "sha256Fingerprint": "3Wk2/iH48HfBI6GlIcEiJPciVbc+A6cmBpPooksPo4k=",
+      "owner": "Telia Company (formerly TeliaSonera)"
     },
     {
-      "label": "E_Tugra_Certification_Authority",
+      "label": "E-Tugra Certification Authority",
       "binNumber": 141,
-      "sha256Fingerprint": "sL/VK7DX2b2Sv11NwT2iVcAsVC83g2XqiTkR9V5V8jw="
+      "sha256Fingerprint": "sL/VK7DX2b2Sv11NwT2iVcAsVC83g2XqiTkR9V5V8jw=",
+      "owner": "e-tugra"
     },
     {
-      "label": "T_TeleSec_GlobalRoot_Class_2",
+      "label": "T-TeleSec GlobalRoot Class 2",
       "binNumber": 142,
-      "sha256Fingerprint": "keL1eI1YEOunulhzfeFUio7KzQFFmLwLFD4EGxcFJVI="
+      "sha256Fingerprint": "keL1eI1YEOunulhzfeFUio7KzQFFmLwLFD4EGxcFJVI=",
+      "owner": "T-Systems International GmbH (Deutsche Telekom)"
     },
     {
-      "label": "Atos_TrustedRoot_2011",
+      "label": "Atos TrustedRoot 2011",
       "binNumber": 143,
-      "sha256Fingerprint": "81a+okS3qR6zXVPKmteGSs4Bji011fj5bd9opvQapHQ="
+      "sha256Fingerprint": "81a+okS3qR6zXVPKmteGSs4Bji011fj5bd9opvQapHQ=",
+      "owner": "Atos"
     },
     {
-      "label": "QuoVadis_Root_CA_1_G3",
+      "label": "QuoVadis Root CA 1 G3",
       "binNumber": 144,
-      "sha256Fingerprint": "ioZv0bJ2tX5XjpIcZYKKK+1Y6fLyiAVBNLfx9L/JzHQ="
+      "sha256Fingerprint": "ioZv0bJ2tX5XjpIcZYKKK+1Y6fLyiAVBNLfx9L/JzHQ=",
+      "owner": "DigiCert"
     },
     {
-      "label": "QuoVadis_Root_CA_2_G3",
+      "label": "QuoVadis Root CA 2 G3",
       "binNumber": 145,
-      "sha256Fingerprint": "j+T7Cvk6TQ1n2wvrsj43xxvzJdy83SQOoE2vWLR+GEA="
+      "sha256Fingerprint": "j+T7Cvk6TQ1n2wvrsj43xxvzJdy83SQOoE2vWLR+GEA=",
+      "owner": "DigiCert"
     },
     {
-      "label": "QuoVadis_Root_CA_3_G3",
+      "label": "QuoVadis Root CA 3 G3",
       "binNumber": 146,
-      "sha256Fingerprint": "iO+B3iAusBhFLkP4ZHJc6l+9H8LZ0gVzBwnF2LhpD0Y="
+      "sha256Fingerprint": "iO+B3iAusBhFLkP4ZHJc6l+9H8LZ0gVzBwnF2LhpD0Y=",
+      "owner": "DigiCert"
     },
     {
-      "label": "DigiCert_Assured_ID_Root_G2",
+      "label": "DigiCert Assured ID Root G2",
       "binNumber": 147,
-      "sha256Fingerprint": "fQXrtoIzn4yUUe4JTuv++nlToRTtsvRJSUUvq30vwYU="
+      "sha256Fingerprint": "fQXrtoIzn4yUUe4JTuv++nlToRTtsvRJSUUvq30vwYU=",
+      "owner": "DigiCert"
     },
     {
-      "label": "DigiCert_Assured_ID_Root_G3",
+      "label": "DigiCert Assured ID Root G3",
       "binNumber": 148,
-      "sha256Fingerprint": "fjfLi0xHCQyrNlUbpvRduEBoD7oWapUtsQBxf0MFP8I="
+      "sha256Fingerprint": "fjfLi0xHCQyrNlUbpvRduEBoD7oWapUtsQBxf0MFP8I=",
+      "owner": "DigiCert"
     },
     {
-      "label": "DigiCert_Global_Root_G2",
+      "label": "DigiCert Global Root G2",
       "binNumber": 149,
-      "sha256Fingerprint": "yzzLt2Ax5eATj43TmiP53kf/w15DwRRM6ifUalqxy18="
+      "sha256Fingerprint": "yzzLt2Ax5eATj43TmiP53kf/w15DwRRM6ifUalqxy18=",
+      "owner": "DigiCert"
     },
     {
-      "label": "DigiCert_Global_Root_G3",
+      "label": "DigiCert Global Root G3",
       "binNumber": 150,
-      "sha256Fingerprint": "Ma1mSPgQQTjHOPOepDIBMzk+OhjMAilu+Xwqye9nMdA="
+      "sha256Fingerprint": "Ma1mSPgQQTjHOPOepDIBMzk+OhjMAilu+Xwqye9nMdA=",
+      "owner": "DigiCert"
     },
     {
-      "label": "DigiCert_Trusted_Root_G4",
+      "label": "DigiCert Trusted Root G4",
       "binNumber": 151,
-      "sha256Fingerprint": "VS973PGnr55s5nIBf08Sq/dyQMeOdhrCA9HZ0grImYg="
+      "sha256Fingerprint": "VS973PGnr55s5nIBf08Sq/dyQMeOdhrCA9HZ0grImYg=",
+      "owner": "DigiCert"
     },
     {
-      "label": "Certification_Authority_of_WoSign",
+      "label": "Certification Authority of WoSign",
       "binNumber": 152,
-      "sha256Fingerprint": "SyLVpq7JnzzbeapewGg4R5zV7LpxZPfyLcHWX2PYVwg="
+      "sha256Fingerprint": "SyLVpq7JnzzbeapewGg4R5zV7LpxZPfyLcHWX2PYVwg=",
+      "owner": "WoSign CA Limited"
     },
     {
-      "label": "CA______",
+      "label": "CA 沃通根证书",
       "binNumber": 153,
-      "sha256Fingerprint": "1vA0vZSqIz8Cl+ykJFsoOXPkR6pZDzEMd/SP34MRIlQ="
+      "sha256Fingerprint": "1vA0vZSqIz8Cl+ykJFsoOXPkR6pZDzEMd/SP34MRIlQ=",
+      "owner": "WoSign CA Limited"
     },
     {
-      "label": "COMODO_RSA_Certification_Authority",
+      "label": "COMODO RSA Certification Authority",
       "binNumber": 154,
-      "sha256Fingerprint": "UvDhxOWOxikpG2AxfwdGcbhdfqgNWwcnNGNTSzK0AjQ="
+      "sha256Fingerprint": "UvDhxOWOxikpG2AxfwdGcbhdfqgNWwcnNGNTSzK0AjQ=",
+      "owner": "Sectigo"
     },
     {
-      "label": "USERTrust_RSA_Certification_Authority",
+      "label": "USERTrust RSA Certification Authority",
       "binNumber": 155,
-      "sha256Fingerprint": "55PJsC/YqhPiHDEiisywgRlkO3SciYlksXRtRsPUy9I="
+      "sha256Fingerprint": "55PJsC/YqhPiHDEiisywgRlkO3SciYlksXRtRsPUy9I=",
+      "owner": "Sectigo"
     },
     {
-      "label": "USERTrust_ECC_Certification_Authority",
+      "label": "USERTrust ECC Certification Authority",
       "binNumber": 156,
-      "sha256Fingerprint": "T/Rg1Uuchtq/vPxXEuBADSvtP7xNT72qhuBq3NKprXo="
+      "sha256Fingerprint": "T/Rg1Uuchtq/vPxXEuBADSvtP7xNT72qhuBq3NKprXo=",
+      "owner": "Sectigo"
     },
     {
-      "label": "GlobalSign",
+      "label": "GlobalSign ECC Root CA - R4",
       "binNumber": 157,
-      "sha256Fingerprint": "vslJEcKVVnbbbApVCYbXbjugBWZ8RCyXYrT7t3PeIow="
+      "sha256Fingerprint": "vslJEcKVVnbbbApVCYbXbjugBWZ8RCyXYrT7t3PeIow=",
+      "owner": "Google Trust Services (GTS)"
     },
     {
-      "label": "GlobalSign",
+      "label": "GlobalSign ECC Root CA - R5",
       "binNumber": 158,
-      "sha256Fingerprint": "F5+8FIo90A/STqE0WMxDv6f1nIGC14OlE/br7BAMiSQ="
+      "sha256Fingerprint": "F5+8FIo90A/STqE0WMxDv6f1nIGC14OlE/br7BAMiSQ=",
+      "owner": "GlobalSign"
     },
     {
-      "label": "Staat_der_Nederlanden_Root_CA___G3",
+      "label": "Staat der Nederlanden Root CA - G3",
       "binNumber": 159,
-      "sha256Fingerprint": "PE+wuVq4swAy9DK4b1Nf4XLBhdD9OYZYN882GH+m9Cg="
+      "sha256Fingerprint": "PE+wuVq4swAy9DK4b1Nf4XLBhdD9OYZYN882GH+m9Cg=",
+      "owner": "Government of The Netherlands, PKIoverheid (Logius)"
     },
     {
-      "label": "Staat_der_Nederlanden_EV_Root_CA",
+      "label": "Staat der Nederlanden EV Root CA",
       "binNumber": 160,
-      "sha256Fingerprint": "TSSRQUz+lWdG7Ezvps9vcuKKEylDL52KkHrEy12twVo="
+      "sha256Fingerprint": "TSSRQUz+lWdG7Ezvps9vcuKKEylDL52KkHrEy12twVo=",
+      "owner": "Government of The Netherlands, PKIoverheid (Logius)"
     },
     {
-      "label": "IdenTrust_Commercial_Root_CA_1",
+      "label": "IdenTrust Commercial Root CA 1",
       "binNumber": 161,
-      "sha256Fingerprint": "XVZJm+TS4IvPytCKPjhyPVBQO95waUjkL1VgMBnlKK4="
+      "sha256Fingerprint": "XVZJm+TS4IvPytCKPjhyPVBQO95waUjkL1VgMBnlKK4=",
+      "owner": "IdenTrust"
     },
     {
-      "label": "IdenTrust_Public_Sector_Root_CA_1",
+      "label": "IdenTrust Public Sector Root CA 1",
       "binNumber": 162,
-      "sha256Fingerprint": "MNCJWppEiiYgkWNVItH1IBC1hnrK4Sx475WP1PQ4ny8="
+      "sha256Fingerprint": "MNCJWppEiiYgkWNVItH1IBC1hnrK4Sx475WP1PQ4ny8=",
+      "owner": "IdenTrust"
     },
     {
-      "label": "Entrust_Root_Certification_Authority___G2",
+      "label": "Entrust Root Certification Authority - G2",
       "binNumber": 163,
-      "sha256Fingerprint": "Q99XdLA+f+9f5A2TGnvt8bsua0JzjE5tOEEQPTqn8zk="
+      "sha256Fingerprint": "Q99XdLA+f+9f5A2TGnvt8bsua0JzjE5tOEEQPTqn8zk=",
+      "owner": "Entrust"
     },
     {
-      "label": "Entrust_Root_Certification_Authority___EC1",
+      "label": "Entrust Root Certification Authority - EC1",
       "binNumber": 164,
-      "sha256Fingerprint": "Au0OsowU2kUWXFZnkXANZFHX+1bwsqsdO46wcOVu3/U="
+      "sha256Fingerprint": "Au0OsowU2kUWXFZnkXANZFHX+1bwsqsdO46wcOVu3/U=",
+      "owner": "Entrust"
     },
     {
-      "label": "CFCA_EV_ROOT",
+      "label": "CFCA EV ROOT",
       "binNumber": 165,
-      "sha256Fingerprint": "XMPXjk4dXkVUegTmhz5k+Qz5U20czC74APNVxMX9cP0="
+      "sha256Fingerprint": "XMPXjk4dXkVUegTmhz5k+Qz5U20czC74APNVxMX9cP0=",
+      "owner": "China Financial Certification Authority (CFCA)"
     },
     {
-      "label": "T_RKTRUST_Elektronik_Sertifika_Hizmet_Sa_lay_c_s__H5",
+      "label": "TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı H5",
       "binNumber": 166,
-      "sha256Fingerprint": "STUbkDREwYXM3FxpPSTYVVyyCNaoFBMHaZ9K8GMZnXg="
+      "sha256Fingerprint": "STUbkDREwYXM3FxpPSTYVVyyCNaoFBMHaZ9K8GMZnXg=",
+      "owner": "TurkTrust"
     },
     {
-      "label": "T_RKTRUST_Elektronik_Sertifika_Hizmet_Sa_lay_c_s__H6",
+      "label": "TÜRKTRUST Elektronik Sertifika Hizmet Sağlayıcısı H6",
       "binNumber": 167,
-      "sha256Fingerprint": "jeeGVeG+f3hHgAuT9pTSHTaMwG4DPn+rBLteuZ2mtwA="
+      "sha256Fingerprint": "jeeGVeG+f3hHgAuT9pTSHTaMwG4DPn+rBLteuZ2mtwA=",
+      "owner": "TurkTrust"
     },
     {
-      "label": "Certinomis___Root_CA",
+      "label": "Certinomis - Root CA",
       "binNumber": 168,
-      "sha256Fingerprint": "Kpn1vBF0tzy7HWIIhOAcNOUcyzl42hJfDjMmiIO/QVg="
+      "sha256Fingerprint": "Kpn1vBF0tzy7HWIIhOAcNOUcyzl42hJfDjMmiIO/QVg=",
+      "owner": "Certinomis"
     },
     {
-      "label": "OISTE_WISeKey_Global_Root_GB_CA",
+      "label": "OISTE WISeKey Global Root GB CA",
       "binNumber": 169,
-      "sha256Fingerprint": "a5wI6G6w92fPrWXNmLYhSeVJSmf1hF570e0Bnye4a9Y="
+      "sha256Fingerprint": "a5wI6G6w92fPrWXNmLYhSeVJSmf1hF570e0Bnye4a9Y=",
+      "owner": "WISeKey"
     },
     {
-      "label": "Certification_Authority_of_WoSign_G2",
+      "label": "Certification Authority of WoSign G2",
       "binNumber": 170,
-      "sha256Fingerprint": "1Ielb4OwdILoXpYzlMHswsnlHQkD7pRrAsMBWB7ZnhY="
+      "sha256Fingerprint": "1Ielb4OwdILoXpYzlMHswsnlHQkD7pRrAsMBWB7ZnhY=",
+      "owner": "WoSign CA Limited"
     },
     {
-      "label": "CA_WoSign_ECC_Root",
+      "label": "CA WoSign ECC Root",
       "binNumber": 171,
-      "sha256Fingerprint": "i0XaHAb3kesMq/Jr5Yj1+yMWXC5hS/iFVi0NzlCymwI="
+      "sha256Fingerprint": "i0XaHAb3kesMq/Jr5Yj1+yMWXC5hS/iFVi0NzlCymwI=",
+      "owner": "WoSign CA Limited"
     },
     {
-      "label": "SZAFIR_ROOT_CA2",
+      "label": "SZAFIR ROOT CA2",
       "binNumber": 172,
-      "sha256Fingerprint": "oTOdMygaC1blV9PTKxzn+TZ+sJS9X6cqflAEyN7Xyv4="
+      "sha256Fingerprint": "oTOdMygaC1blV9PTKxzn+TZ+sJS9X6cqflAEyN7Xyv4=",
+      "owner": "Krajowa Izba Rozliczeniowa S.A. (KIR)"
     },
     {
-      "label": "Certum_Trusted_Network_CA_2",
+      "label": "Certum Trusted Network CA 2",
       "binNumber": 173,
-      "sha256Fingerprint": "tnby7drod1zTbLD2PNHUYDlh9J5iZboBOi8DB7bQuAQ="
+      "sha256Fingerprint": "tnby7drod1zTbLD2PNHUYDlh9J5iZboBOi8DB7bQuAQ=",
+      "owner": "Asseco Data Systems S.A. (previously Unizeto Certum)"
     },
     {
-      "label": "Hellenic_Academic_and_Research_Institutions_RootCA_2015",
+      "label": "Hellenic Academic and Research Institutions RootCA 2015",
       "binNumber": 174,
-      "sha256Fingerprint": "oECSmgLOU7Ss9PL/xpgc5ElvdV5tRf4LKmkrzVJSPzY="
+      "sha256Fingerprint": "oECSmgLOU7Ss9PL/xpgc5ElvdV5tRf4LKmkrzVJSPzY=",
+      "owner": "HARICA"
     },
     {
-      "label": "Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015",
+      "label": "Hellenic Academic and Research Institutions ECC RootCA 2015",
       "binNumber": 175,
-      "sha256Fingerprint": "RLVFqool5lpzyhXcJ/w20kwcuZU6BmU5sRWC3Eh7SDM="
+      "sha256Fingerprint": "RLVFqool5lpzyhXcJ/w20kwcuZU6BmU5sRWC3Eh7SDM=",
+      "owner": "HARICA"
     },
     {
-      "label": "Certplus_Root_CA_G1",
+      "label": "Certplus Root CA G1",
       "binNumber": 176,
-      "sha256Fingerprint": "FSpAK/zfLNVIBU0idbOcf8o+wJeAeLDw6nblYabHQz4="
+      "sha256Fingerprint": "FSpAK/zfLNVIBU0idbOcf8o+wJeAeLDw6nblYabHQz4=",
+      "owner": "DocuSign (OpenTrust/Keynectis)"
     },
     {
-      "label": "Certplus_Root_CA_G2",
+      "label": "Certplus Root CA G2",
       "binNumber": 177,
-      "sha256Fingerprint": "bMBQQeZEXnRpbEz7yfgPVDt+q7tEtM5veHxqmXHELxc="
+      "sha256Fingerprint": "bMBQQeZEXnRpbEz7yfgPVDt+q7tEtM5veHxqmXHELxc=",
+      "owner": "DocuSign (OpenTrust/Keynectis)"
     },
     {
-      "label": "OpenTrust_Root_CA_G1",
+      "label": "OpenTrust Root CA G1",
       "binNumber": 178,
-      "sha256Fingerprint": "VsdxKNmMGNkbTP3/vCXukQPUdY6iq62CapDzRX1GDrQ="
+      "sha256Fingerprint": "VsdxKNmMGNkbTP3/vCXukQPUdY6iq62CapDzRX1GDrQ=",
+      "owner": "DocuSign (OpenTrust/Keynectis)"
     },
     {
-      "label": "OpenTrust_Root_CA_G2",
+      "label": "OpenTrust Root CA G2",
       "binNumber": 179,
-      "sha256Fingerprint": "J5lYKf5qdRXBv+hI+cR2HbFsIlkpJXv0DQiU8p6ouvI="
+      "sha256Fingerprint": "J5lYKf5qdRXBv+hI+cR2HbFsIlkpJXv0DQiU8p6ouvI=",
+      "owner": "DocuSign (OpenTrust/Keynectis)"
     },
     {
-      "label": "OpenTrust_Root_CA_G3",
+      "label": "OpenTrust Root CA G3",
       "binNumber": 180,
-      "sha256Fingerprint": "t8NiMXBugQeMNny4lhmPHjII3ZJpSd2PVwmkEPdbYpI="
+      "sha256Fingerprint": "t8NiMXBugQeMNny4lhmPHjII3ZJpSd2PVwmkEPdbYpI=",
+      "owner": "DocuSign (OpenTrust/Keynectis)"
     },
     {
-      "label": "ISRG_Root_X1",
+      "label": "ISRG Root X1",
       "binNumber": 181,
-      "sha256Fingerprint": "lrzsBiZJdvN0YHeazyjFp8/oo8Cq4RqP/O4FwL3fCMY="
+      "sha256Fingerprint": "lrzsBiZJdvN0YHeazyjFp8/oo8Cq4RqP/O4FwL3fCMY=",
+      "owner": "Internet Security Research Group (ISRG)"
     },
     {
-      "label": "OU_AC_RAIZ_FNMT_RCM_O_FNMT_RCM_C_ES",
+      "label": "FNMT-RCM - SHA256",
       "binNumber": 182,
-      "sha256Fingerprint": "68VXDCkBjE1nsaoSe68S9wO0YR68F7fatVc4lBebk/o="
+      "sha256Fingerprint": "68VXDCkBjE1nsaoSe68S9wO0YR68F7fatVc4lBebk/o=",
+      "owner": "Government of Spain, Fábrica Nacional de Moneda y Timbre (FNMT)"
     },
     {
-      "label": "Amazon_Root_CA_1",
+      "label": "Amazon Root CA 1",
       "binNumber": 183,
-      "sha256Fingerprint": "js3miE89h7ESW6Maw/yxPXAW3n9XzJBP4cuXxq6YGW4="
+      "sha256Fingerprint": "js3miE89h7ESW6Maw/yxPXAW3n9XzJBP4cuXxq6YGW4=",
+      "owner": "Amazon"
     },
     {
-      "label": "Amazon_Root_CA_2",
+      "label": "Amazon Root CA 2",
       "binNumber": 184,
-      "sha256Fingerprint": "G6WyqoxlQBqClgEY+AvsT2IwTYPOxHE6GcOcAR6kbbQ="
+      "sha256Fingerprint": "G6WyqoxlQBqClgEY+AvsT2IwTYPOxHE6GcOcAR6kbbQ=",
+      "owner": "Amazon"
     },
     {
-      "label": "Amazon_Root_CA_3",
+      "label": "Amazon Root CA 3",
       "binNumber": 185,
-      "sha256Fingerprint": "GM5s/nvxTmCy40e43+hoyzHQLrs62icVafUDQ7Rts6Q="
+      "sha256Fingerprint": "GM5s/nvxTmCy40e43+hoyzHQLrs62icVafUDQ7Rts6Q=",
+      "owner": "Amazon"
     },
     {
-      "label": "Amazon_Root_CA_4",
+      "label": "Amazon Root CA 4",
       "binNumber": 186,
-      "sha256Fingerprint": "410oQZ7QICXPppA4zWI5YkWNpcaV+96jwisL+yWJcJI="
+      "sha256Fingerprint": "410oQZ7QICXPppA4zWI5YkWNpcaV+96jwisL+yWJcJI=",
+      "owner": "Amazon"
     },
     {
-      "label": "LuxTrust_Global_Root_2",
+      "label": "LuxTrust Global Root 2",
       "binNumber": 187,
-      "sha256Fingerprint": "VEVfcSnCCxRHxBj5lxaPJMWPxQI79dpb4utuHdiQLtU="
+      "sha256Fingerprint": "VEVfcSnCCxRHxBj5lxaPJMWPxQI79dpb4utuHdiQLtU=",
+      "owner": "LuxTrust"
+    },
+    {
+      "label": "TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi___Surum_1",
+      "binNumber": 188,
+      "sha256Fingerprint": "Ru3DaJBG1TpFP7MQSrgNyuxliyZg6hYp3X6GeZBkhxY=",
+      "owner": "Government of Turkey, Kamu Sertifikasyon Merkezi (Kamu SM)"
+    },
+    {
+      "label": "GDCA_TrustAUTH_R5_ROOT",
+      "binNumber": 189,
+      "sha256Fingerprint": "v/+P0EQzSH1qiqYMGil2ep/Cu7BeQg9xOhO5kokdOJM=",
+      "owner": "GDCA"
+    },
+    {
+      "label": "TrustCor_RootCert_CA_1",
+      "binNumber": 190,
+      "sha256Fingerprint": "1A6chs2P5GjBd2lZ9J6ndPpUhoS2xAbzkJJh9NziV1w=",
+      "owner": "TrustCor"
+    },
+    {
+      "label": "TrustCor_RootCert_CA_2",
+      "binNumber": 191,
+      "sha256Fingerprint": "B1PpQDeMG9Xjg245Xa6ly4OeUEbxvQ6uGVHPEP7HyWU=",
+      "owner": "TrustCor"
+    },
+    {
+      "label": "TrustCor_ECA_1",
+      "binNumber": 192,
+      "sha256Fingerprint": "WohdsZwB2RLFdZOIk4yvu98DGrLUjpHuFVibQpcdA5w=",
+      "owner": "TrustCor"
+    },
+    {
+      "label": "SSL_com_Root_Certification_Authority_RSA",
+      "binNumber": 193,
+      "sha256Fingerprint": "hWZqVi7gvlzpJcHYiQpvdqh+wW1NfV8p6nQZzyASO2k=",
+      "owner": "SSL.com"
+    },
+    {
+      "label": "SSL_com_Root_Certification_Authority_ECC",
+      "binNumber": 194,
+      "sha256Fingerprint": "NBe7BsxgB9oblhySC4q0zj+tgg5Kowuay8SnTr3OvGU=",
+      "owner": "SSL.com"
+    },
+    {
+      "label": "SSL_com_EV_Root_Certification_Authority_RSA_R2",
+      "binNumber": 195,
+      "sha256Fingerprint": "LnvxbMIkhae74qqGlnUHYbCuOb47L+nQzG1O9zSRQlw=",
+      "owner": "SSL.com"
+    },
+    {
+      "label": "SSL_com_EV_Root_Certification_Authority_ECC",
+      "binNumber": 196,
+      "sha256Fingerprint": "IqLB973tcEzB5wG19AjDEIgP6Va13ipKRPmchzolp8g=",
+      "owner": "SSL.com"
     }
   ],
-  "maxBin": 187
-};
+  "maxBin": 196
+}

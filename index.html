@@ -1,6 +1,7 @@
 <html>
 
 <head>
+<meta charset="utf-8">
 <title>Firefox PKI league table</title>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="https://telemetry.mozilla.org/v2/telemetry.js"></script>
@@ -12,7 +13,7 @@ var CHANNELS = ["beta", "release"];
 var RECENCY_THRESHOLD = 7 * 24 * 60 * 60 * 1000; // last week
 
 var MEASURE = "CERT_VALIDATION_SUCCESS_BY_CA";
-var VERSION_THRESHOLD = 36;
+var VERSION_THRESHOLD = 68;
 var PRECISION = 5; // decimal places
 var INCLUSION_THRESHOLD = 0.001; // CCDF
 var TODAY = new Date();
@@ -66,15 +67,18 @@ function loadAll(versions, callback, hist_in) {
 function chart(counts) {
   // Transmute the inputs into maps by bin number
   labels = {};
+  owners = {};
   bins = [];
   for (i in knownRootHashes.roots) {
     bins.push(knownRootHashes.roots[i].binNumber);
     labels[knownRootHashes.roots[i].binNumber] = knownRootHashes.roots[i].label;
+    owners[knownRootHashes.roots[i].binNumber] = knownRootHashes.roots[i].owner;
   }
 
   // Add the empty bin
   bins.push(0);
   labels[0] = "(non-default root)";
+  owners[0] = "(none)";
 
   // Sort the bins by count
   bins = bins.sort(function(i,j) {return counts[j] - counts[i]});
@@ -102,6 +106,7 @@ function chart(counts) {
           + "<tr>"
           + "<th>Rank</th>"
           + "<th>Label</th>"
+          + "<th>Owner</th>"
           + "<th>Observations</th>"
           + "<th>Percent</th>"
           + "<th><a href='https://en.wikipedia.org/wiki/Cumulative_distribution_function'>CDF</a></th>"
@@ -114,6 +119,7 @@ function chart(counts) {
     content += "<tr>" 
              + "<td>"+ rank +"</td>"
              + "<td>"+ labels[bin] +"</td>"
+             + "<td>"+ owners[bin] +"</td>"
              + "<td class='number'>"+ counts[bin] +"</td>"
              + "<td class='number'>"+ percent[bin].toFixed(PRECISION) +"%</td>"
              + "<td class='number'>"+ cdf[bin].toFixed(PRECISION) +"%</td>"
